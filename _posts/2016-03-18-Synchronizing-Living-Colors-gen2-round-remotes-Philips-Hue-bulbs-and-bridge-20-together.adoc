@@ -11,21 +11,17 @@ Getting all this stuff working together:
 * Philips bridge v2, controlling all lights
 
 
-There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
-
-
 
 
 == The solution
-Here is the trick:
+There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
 
 . Plug and turn everything on
 
 . Reset the Living Color remote:
 press the reset button under the battery cover for a few seconds.
 
-. Reset the Hue Bridge: 
-(this will remove all settings, scenes, schedules, rules, etc. from the Hue Bridge): +
+. Reset the Hue Bridge (this will reset your settings): +
 while holding the link button on top of the Hue Bridge, hold the remote close to the Hue Bridge and hold "0" (off) and Blue on colorwheel (-6h) until the Hue Bridge reboots.
 
 . Associate the Living Color remote with each Living Colors lights and Hue bulbs: +
