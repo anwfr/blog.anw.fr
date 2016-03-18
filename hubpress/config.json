@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "anwfr",
-    "repositoryName": "blog.anw.fr",
-    "branch": "gh-pages"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"anwfr","repositoryName":"blog.anw.fr","branch":"gh-pages","cname":"blog.anw.fr"},"site":{"url":"http://blog.anw.fr"},"socialnetwork":{},"theme":{"name":"Casper","url":"//anwfr.github.io/blog.anw.fr/themes/Casper"}}
