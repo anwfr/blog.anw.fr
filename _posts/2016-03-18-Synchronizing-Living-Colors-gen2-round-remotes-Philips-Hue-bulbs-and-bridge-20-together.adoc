@@ -5,9 +5,9 @@
 
 ****
 * Living Colors and Living Bloom gen2 
-* Living Colors remote gen2 (round remote with the "touch-wheel" for colors)
 * Philips Hue white/color bulbs
-* Philips bridge v2
+* Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors) controlling all lights
+* Philips bridge v2 controlling all lights
 ****
 
 
