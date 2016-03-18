@@ -1,18 +1,20 @@
 = Synchronizing Living Colors gen2, round remotes, Philips Hue bulbs and bridge 2.0 together
 :hp-tags: hardware,fixed
 
-*THE PROBLEM:* How to get all this stuff working together:
+== The problem
+How to get all this stuff working together:
 
-****
 * Living Colors and Living Bloom gen2 
 * Philips Hue white/color bulbs
 * Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors) controlling all lights
 * Philips bridge v2 controlling all lights
-****
 
 
-There are almost no post on internet about this and instructions for remote v1 doesn't work, so here is the trick:
+There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
 
+
+
+== The solution
 0. Plug and turn everything on
 
 1. Reset the Living Color remote:
