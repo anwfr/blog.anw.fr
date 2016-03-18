@@ -3,9 +3,7 @@
 
 == The problem
 
-----
-
-How to get all this stuff working together:
+Getting all this stuff working together:
 
 * Living Colors and Living Bloom gen2 
 * Philips Hue white/color bulbs
@@ -14,7 +12,7 @@ How to get all this stuff working together:
 
 
 There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
-----
+
 
 
 
@@ -55,9 +53,6 @@ Sources:
 * https://www.reddit.com/r/Hue/comments/3y0h1s/pair_living_colours_gen2_remote_to_bridge_20/
 
 
-.After landing the cloaked Klingon bird of prey in Golden Gate park: 
-[quote, Captain James T. Kirk, Star Trek IV: The Voyage Home]     
-Everybody remember where we parked.
 
 ----
 = Document Title
