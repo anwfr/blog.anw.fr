@@ -1,4 +1,4 @@
-= [Fixed] Synchronizing Living Colors gen2, remotes, Philips Hue and bridge 2.0 together
+= Synchronizing Living Colors gen2, round remotes, Philips Hue bulbs and bridge 2.0 together
 :hp-tags: hardware,fixed
 
 *THE PROBLEM:* I spent a few hours getting all this stuff working together:
@@ -37,3 +37,6 @@ press the reset button under the battery cover for a few seconds.
 2. Associate the remotes together: hold the new remote close to the already configured one and hold the "I" (on) of both remotes until they stop blinking.
 
 
+
+Sources:
+https://www.reddit.com/r/Hue/comments/3wdilk/you_can_connect_gen_2_round_remote_living_colors/
