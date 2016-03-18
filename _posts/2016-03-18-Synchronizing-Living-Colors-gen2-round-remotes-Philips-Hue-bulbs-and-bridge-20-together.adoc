@@ -2,6 +2,9 @@
 :hp-tags: stuff,fixed
 
 == The problem
+
+----
+
 How to get all this stuff working together:
 
 * Living Colors and Living Bloom gen2 
@@ -11,38 +14,38 @@ How to get all this stuff working together:
 
 
 There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
-
+----
 
 
 
 == The solution
 Here is the trick:
 
-0. Plug and turn everything on
+. Plug and turn everything on
 
-1. Reset the Living Color remote:
+. Reset the Living Color remote:
 press the reset button under the battery cover for a few seconds.
 
-2. Reset the Hue Bridge: 
+. Reset the Hue Bridge: 
 (this will remove all settings, scenes, schedules, rules, etc. from the Hue Bridge): while holding the link button on top of the Hue Bridge, hold the remote close to the Hue Bridge and hold "0" (off) and Blue on colorwheel (-6h) until the Hue Bridge reboots.
 
-3. Associate the Living Color remote with each Living Colors lights and Hue bulbs: 
+. Associate the Living Color remote with each Living Colors lights and Hue bulbs: 
 hold the remote near each item holding the "I" (on) until the item stops blinking.
 At this point, you can control all items with the remote, but your bridge doesn't detect Living Colors.
 
-4. Associate the Living Color remote with the Hue bridge: 
+. Associate the Living Color remote with the Hue bridge: 
 press the link button on top of the Hue Bridge and hold the "I" (on) on the remote until the LED around bridge's link button stops blinking.
 
-5. Open Hue app, your remote and living colors will be detected!
+. Open Hue app, your remote and living colors will be detected!
 
 
 
 For adding an additional remote:
 
-1. Reset the new Living Color remote:
+. Reset the new Living Color remote:
 press the reset button under the battery cover for a few seconds.
 
-2. Associate the remotes together: hold the new remote close to the already configured one and hold the "I" (on) of both remotes until they stop blinking.
+. Associate the remotes together: hold the new remote close to the already configured one and hold the "I" (on) of both remotes until they stop blinking.
 
 
 
@@ -50,3 +53,23 @@ Sources:
 
 * https://www.reddit.com/r/Hue/comments/3wdilk/you_can_connect_gen_2_round_remote_living_colors/
 * https://www.reddit.com/r/Hue/comments/3y0h1s/pair_living_colours_gen2_remote_to_bridge_20/
+
+
+.After landing the cloaked Klingon bird of prey in Golden Gate park: 
+[quote, Captain James T. Kirk, Star Trek IV: The Voyage Home]     
+Everybody remember where we parked.
+
+----
+= Document Title
+----
++
+NOTE: The header is optional.
+
+* Optional Author and Revision information
+  immediately follows the header title.
++
+----
+= Document Title
+Doc Writer <doc.writer@asciidoc.org>
+v1.0, 2013-01-01
+----
