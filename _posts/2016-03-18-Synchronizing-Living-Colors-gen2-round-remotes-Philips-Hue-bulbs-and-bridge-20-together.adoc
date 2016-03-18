@@ -1,5 +1,5 @@
 = Synchronizing Living Colors gen2, round remotes, Philips Hue bulbs and bridge 2.0 together
-:hp-tags: hardware,fixed
+:hp-tags: stuff,fixed
 
 == The problem
 How to get all this stuff working together:
@@ -14,7 +14,10 @@ There are almost no post on internet about it, and instructions for remote v1 do
 
 
 
+
 == The solution
+Here is the trick:
+
 0. Plug and turn everything on
 
 1. Reset the Living Color remote:
