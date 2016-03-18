@@ -1,6 +1,5 @@
-= Blah 2
+= Introduction au fonctionnement de Bitcoin
 
-Another test
+Cet article a pour but de décrire de manière aussi succinte que possible le fonctionnement technique de Bitcoin et de la Blockchain.
 
-[TIP]
-youhou
+
