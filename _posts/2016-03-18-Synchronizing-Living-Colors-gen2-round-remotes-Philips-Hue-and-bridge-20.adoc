@@ -1,4 +1,4 @@
-= Synchronizing Living Colors gen2, round remotes, Philips Hue and bridge 2.0 together
+= Synchronizing Living Colors gen2, round remotes, Philips Hue and bridge 2.0
 :hp-tags: stuff,fixed
 
 == The problem
