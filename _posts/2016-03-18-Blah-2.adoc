@@ -1,3 +1,6 @@
 = Blah 2
 
 Another test
+
+[TIP]
+youhou
