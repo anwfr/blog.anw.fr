@@ -42,4 +42,6 @@ press the reset button under the battery cover for a few seconds.
 
 
 Sources:
-https://www.reddit.com/r/Hue/comments/3wdilk/you_can_connect_gen_2_round_remote_living_colors/
+
+* https://www.reddit.com/r/Hue/comments/3wdilk/you_can_connect_gen_2_round_remote_living_colors/
+* https://www.reddit.com/r/Hue/comments/3y0h1s/pair_living_colours_gen2_remote_to_bridge_20/
