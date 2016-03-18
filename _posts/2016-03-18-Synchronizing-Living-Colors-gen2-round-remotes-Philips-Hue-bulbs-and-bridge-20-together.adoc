@@ -7,8 +7,8 @@ Getting all this stuff working together:
 
 * Living Colors and Living Bloom gen2 
 * Philips Hue white/color bulbs
-* Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors) controlling all lights
-* Philips bridge v2 controlling all lights
+* Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors), controlling all lights
+* Philips bridge v2, controlling all lights
 
 
 There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
@@ -25,25 +25,28 @@ Here is the trick:
 press the reset button under the battery cover for a few seconds.
 
 . Reset the Hue Bridge: 
-(this will remove all settings, scenes, schedules, rules, etc. from the Hue Bridge): while holding the link button on top of the Hue Bridge, hold the remote close to the Hue Bridge and hold "0" (off) and Blue on colorwheel (-6h) until the Hue Bridge reboots.
+(this will remove all settings, scenes, schedules, rules, etc. from the Hue Bridge): +
+while holding the link button on top of the Hue Bridge, hold the remote close to the Hue Bridge and hold "0" (off) and Blue on colorwheel (-6h) until the Hue Bridge reboots.
 
-. Associate the Living Color remote with each Living Colors lights and Hue bulbs: 
-hold the remote near each item holding the "I" (on) until the item stops blinking.
-At this point, you can control all items with the remote, but your bridge doesn't detect Living Colors.
+. Associate the Living Color remote with each Living Colors lights and Hue bulbs: +
+hold the remote near each item holding the "I" (on) until the item stops blinking. +
+_At this point, you can control all items with the remote, but your bridge doesn't detect Living Colors._
 
-. Associate the Living Color remote with the Hue bridge: 
+. Associate the Living Color remote with the Hue bridge: +
 press the link button on top of the Hue Bridge and hold the "I" (on) on the remote until the LED around bridge's link button stops blinking.
 
-. Open Hue app, your remote and living colors will be detected!
+. Open Hue app mobile, Living Colors and Hue bulbs should be detected! +
+_You can now control all lights with the Hue app and the remote._
 
 
 
 For adding an additional remote:
 
-. Reset the new Living Color remote:
+. Reset the new Living Color remote: +
 press the reset button under the battery cover for a few seconds.
 
-. Associate the remotes together: hold the new remote close to the already configured one and hold the "I" (on) of both remotes until they stop blinking.
+. Associate the remotes together: +
+hold the new remote close to the already configured one and hold the "I" (on) of both remotes until they stop blinking.
 
 
 
