@@ -1,3 +1,39 @@
-= Test abc
+= [Fixed] Synchronizing Living Colors gen2, remotes, Philips Hue and bridge 2.0 together
+:hp-tags: hardware,fixed
 
-blah
+*THE PROBLEM:* I spent a few hours getting all this stuff working together:
+
+* Living Colors and Living Bloom gen2 
+* Living Colors remote gen2 (round remote with the "touch-wheel" for colors)
+* Philips Hue white/color bulbs
+* Philips bridge v2
+
+
+There are almost no post on internet about this and instructions for remote v1 doesn't work, so here is the trick:
+
+0. Plug and turn everything on
+
+1. Reset the Living Color remote:
+press the reset button under the battery cover for a few seconds.
+
+2. Reset the Hue Bridge: 
+(this will remove all settings, scenes, schedules, rules, etc. from the Hue Bridge): while holding the link button on top of the Hue Bridge, hold the remote close to the Hue Bridge and hold "0" (off) and Blue on colorwheel (-6h) until the Hue Bridge reboots.
+
+3. Associate the Living Color remote with each Living Colors lights and Hue bulbs: 
+hold the remote near each item holding the "I" (on) until the item stops blinking.
+At this point, you can control all items with the remote, but your bridge doesn't detect Living Colors.
+
+4. Associate the Living Color remote with the Hue bridge: 
+press the link button on top of the Hue Bridge and hold the "I" (on) on the remote until the LED around bridge's link button stops blinking.
+
+5. Open Hue app, your remote and living colors will be detected!
+
+
+
+For adding an additional remote:
+1. Reset the new Living Color remote:
+press the reset button under the battery cover for a few seconds.
+
+2. Associate the remotes together: hold the new remote close to the already configured one and hold the "I" (on) of both remotes until they stop blinking.
+
+
