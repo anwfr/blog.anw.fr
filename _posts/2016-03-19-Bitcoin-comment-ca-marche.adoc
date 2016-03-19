@@ -115,10 +115,10 @@ A chaque bloc créé, X nouveaux bitcoins sont créés et redistribués au premi
     A chaque bloc créé, les transactions incluses dans ce bloc sont considérées comme exécutées.
     Les blocs s'ajoutent les uns après à la suite des autres  toutes les 10 minutes et forment la blockchain.
     
-Problème : que se passe t-il si 2 mineurs trouvent quasi simultanément des solutions valides ?
-    Split de la blockchain, plusieurs blocs se rattachent à un même bloc, on se retrouve avec plusieurs branches.
+*Problème : que se passe t-il si 2 mineurs trouvent quasi simultanément des solutions valides ?* +
+Split de la blockchain, plusieurs blocs se rattachent à un même bloc, on se retrouve avec plusieurs branches. +
     => Solution : on considère que la chaine la plus longue est la bonne. Plus le temps passe, plus l'une des 2 branches va être en retard sur l'autre, et plus les mineurs vont être incités à miner la branche la plus longue.
-    La branche la plus courte sera invalidée automatiquement et les transactions seront invalidées.
+    La branche la plus courte sera invalidée automatiquement et les transactions seront invalidées. +
     => Il y a donc un risque potentiel de voir sa transaction annulée en cas de split, même si c'est très rare. C'est aussi une attaque potentielle : si qq'un a suffisamment de puissance de calcul, il peut tirer une branche d'un bloc précédent pour tenter d'annuler le dernier bloc et faire du "double spending".
 
 Solution : le niveau de sécurité dépend du nombre de confirmations.
@@ -137,7 +137,7 @@ Vu cette énorme puissance, un mineur seul dans son garage a très peu de chance
 === Contraintes liées à la taille de la blockchain
 On a vu que pour s'assurer de la validité d'une transaction, il faut connaître l'intégralité de la blockchain càd 60Go.
 Problème : ça fait lourd sur un mobile.
-Solution : wallet SPV qui ne va s'intéresser qu'aux entêtes des blocs de la blockchain pour s'assurer de la présence d'une transaction, sans télécharger le bloc entier. Cela est possible grâce à la structure des blocs en arbre de Merkle [*] http://www.e-ducat.fr/bitcoin-et-les-arbres-de-merkle/
+Solution : wallet SPV qui ne va s'intéresser qu'aux entêtes des blocs de la blockchain pour s'assurer de la présence d'une transaction, sans télécharger le bloc entier. Cela est possible grâce à la structure des blocs en arbre de Merkle  http://www.e-ducat.fr/bitcoin-et-les-arbres-de-merkle/ +
 Limite : un wallet SPV ne peut pas vérifier que la transaction est valide (= qu'elle est correctement signée), il sait juste que la transaction est présente dans le bloc mais fait confiance au reste du réseau qui l'a accepté vu que la blockchain est suffisamment longue.
 => il est vital pour bitcoin que suffisamment d'utilisateurs utilisent des wallets "full nodes" pour détecter les transactions invalides. [*] https://bitnodes.21.co/
     
