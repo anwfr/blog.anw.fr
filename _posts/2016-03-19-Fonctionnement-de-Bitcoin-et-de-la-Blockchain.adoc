@@ -1,15 +1,15 @@
-= Introduction au fonctionnement de Bitcoin et à la Blockchain
+= Fonctionnement de Bitcoin et de la Blockchain
 :hp-tags: bitcoin
 
-Cet article décrit décrire le plus succintement possible le fonctionnement de Bitcoin.
+Cet article décrit le plus succintement possible le fonctionnement de Bitcoin.
 
 
 == Bitcoin en pratique : comment en obtenir et les utiliser ?
 - comment en obtenir : 
 
-    en en achetant à quelqu'un qui en vend : exchange online (risque MtGox) ou main propre (localbitcoins)
+   * en en achetant à quelqu'un qui en vend : exchange online (risque MtGox) ou main propre (http://www.localbitcoins.com)
 
-    en participant à l'effort de création de monnaie par minage (explication + tard)
+   * en participant à l'effort de création de monnaie par minage (explication ci-dessous)
 
 
 - pour recevoir des bitcoins il faut une adresse, pour gérer cette adresse il faut un portefeuille (= wallet) :
