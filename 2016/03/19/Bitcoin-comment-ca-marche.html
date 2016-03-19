@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Bitcoin, comment ça marche ? - Blog</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Bitcoin, comment ça marche ?">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Bitcoin, comment ça marche ?">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1.0.0" />
+
+    <link rel="canonical" href="http://blog.anw.fr/2016/03/19/Bitcoin-comment-ca-marche.html" />
+    
+    <meta property="og:site_name" content="Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Bitcoin, comment ça marche ?" />
+    <meta property="og:description" content="Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain. Bitcoin en pratique comment en obtenir : en en achetant à quelqu&amp;#8217;un qui en vend : exchange online (risque MtGox) ou main propre (http://www...." />
+    <meta property="og:url" content="http://blog.anw.fr/2016/03/19/Bitcoin-comment-ca-marche.html" />
+    <meta property="article:published_time" content="2016-03-18T23:00:00.000Z" />
+    <meta property="article:modified_time" content="2016-03-19T18:37:04.280Z" />
+    <meta property="article:tag" content="bitcoin" />
+    <meta property="article:tag" content="blockchain" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Bitcoin, comment ça marche ?" />
+    <meta name="twitter:description" content="Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain. Bitcoin en pratique comment en obtenir : en en achetant à quelqu&amp;#8217;un qui en vend : exchange online (risque MtGox) ou main propre (http://www...." />
+    <meta name="twitter:url" content="http://blog.anw.fr/2016/03/19/Bitcoin-comment-ca-marche.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Blog",
+    "author": {
+        "@type": "Person",
+        "name": "Antoine Walter",
+        "image": "https://avatars.githubusercontent.com/u/1021797?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://www.anw.fr"
+    },
+    "headline": "Bitcoin, comment ça marche ?",
+    "url": "http://blog.anw.fr/2016/03/19/Bitcoin-comment-ca-marche.html",
+    "datePublished": "2016-03-18T23:00:00.000Z",
+    "dateModified": "2016-03-19T18:37:04.280Z",
+    "keywords": "bitcoin, blockchain",
+    "description": "Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain. Bitcoin en pratique comment en obtenir : en en achetant à quelqu&amp;#8217;un qui en vend : exchange online (risque MtGox) ou main propre (http://www...."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Blog" href="http://blog.anw.fr/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+</head>
+<body class="post-template tag-bitcoin tag-blockchain no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " >
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <a href="http://blog.anw.fr" title="link to homepage for Blog"><img src="https://avatars3.githubusercontent.com/u/1021797?v=3&amp;s=460" width="80" alt="Blog logo" class="panel-cover__logo logo" /></a>
+            <h1 class="panel-cover__title panel-title"><a href="http://blog.anw.fr" title="link to homepage for Blog">Blog</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description">Public notes</p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="http://blog.anw.fr/#blog" title="link to Blog blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="http://twitter.com/anwfr" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="http://github.com/anwfr/" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="http://flickr.com/anw-fr/" title="Flickr account">
+                      <i class='icon icon-social-flickr'></i>
+                      <span class="label">Flickr</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- LinkedIn -->
+                  <li class="navigation__item">
+                    <a href="http://www.linkedin.com/in/antoinewalter" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="19 Mar 2016" class="post-meta__date date">19 Mar 2016</time> &#8226; <span class="post-meta__tags tags">on <a href="http://blog.anw.fr/tag/bitcoin">bitcoin</a>, <a href="http://blog.anw.fr/tag/blockchain">blockchain</a></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/1021797?v=3" alt="profile image for Antoine Walter" class="avatar post-meta__avatar" /> by Antoine Walter</span>
+      </div>
+      <h1 class="post-title">Bitcoin, comment ça marche ?</h1>
+    </header>
+
+    <section class="post tag-bitcoin tag-blockchain">
+      <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bitcoin_en_pratique">Bitcoin en pratique</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>comment en obtenir :</p>
+<div class="ulist">
+<ul>
+<li>
+<p>en en achetant à quelqu&#8217;un qui en vend : exchange online (risque MtGox) ou main propre (<a href="http://www.localbitcoins.com" class="bare">http://www.localbitcoins.com</a>)</p>
+</li>
+<li>
+<p>en participant à l&#8217;effort de création de monnaie par minage (peu rentable, explication ci-dessous)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>pour recevoir des bitcoins il faut une adresse, pour gérer cette adresse il faut un portefeuille <em>(wallet)</em> :</p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>hot wallet</em> : le plus courant, existe sur téléphone, ordinateur ou en ligne (<a href="http://www.blockchain.info" class="bare">http://www.blockchain.info</a>)</p>
+</li>
+<li>
+<p>sous d&#8217;autres formes : <em>cold storage</em> (sur papier), <em>brainwallet</em> (phrase secrète à mémoriser)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_comprendre_son_fonctionnement_concepts_s_curit_risques">Comprendre son fonctionnement (concepts, sécurité, risques)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>qu&#8217;est-ce qu&#8217;une adresse ?</strong></p>
+</div>
+<div class="paragraph">
+<p>Pour recevoir des bitcoins il faut une adresse publique (comme une adresse email) (sous la forme 1er7H9CxBQf9Hj6H3kMDCc45ZtPvFfsb7 ou QR code). Tout le monde peut envoyer des bitcoins vers l&#8217;adresse publique (un commerçant peut imprimer le qrcode de son adresse publique sur son comptoir pour recevoir des paiements)<br>
+Chaque adresse publique est associée à une clé privée connue par son seul propriétaire, et qui est requise pour dépenser les bitcoins qui s&#8217;y trouvent &#8658; cette clé doit rester secrete, c&#8217;est la clé du coffre</p>
+</div>
+<div class="paragraph">
+<p><strong>Problème : on ne veut pas d&#8217;autorité centrale pour générer de nouvelles adresses</strong><br>
+Solution &#8658; tout le monde peut créer des adresses.<br>
+    Pour créer une adresse, on génère une clé privée de 256 bits (32 octets) à partir de nombres aléatoires. Par commodité, cette adresse privée peut être représentée sous un format simplifié (51 caractères respectants certains critères avec checksum pour éviter les erreurs). A partir de cette clé privée on déduit l&#8217;adresse publique associée (l&#8217;opération inverse n&#8217;est évidemment pas possible).</p>
+</div>
+<div class="paragraph">
+<p>Les applications de wallets permettent de générer des clés privées associées à un ensemble d&#8217;adresses publiques et de les mémoriser &#8658; risque de bug/perte ou vol de données/piratage/wallet malveillant (ex : bug RNG sur android a eu des impacts importants en générant des clés privées affaiblies)</p>
+</div>
+<div class="paragraph">
+<p>Si on est parano et qu&#8217;on n&#8217;a pas confiance dans les logiciels :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>on peut se créer une adresse en jetant des dés avec un peu de patience, ou avec un wallet de génération de nombres aléatoire.</p>
+</li>
+<li>
+<p>des méthodes permettent de dériver des clés privées à partir d&#8217;une dizaine de mots d&#8217;un dictionnaire &#8658; on peut mémoriser ses propres clés si on est parano et qu&#8217;on ne veut pas qu&#8217;elles aient une existence physique. on peut donc avoir un cerveau qui vaut 3 milliards :)</p>
+<div class="literalblock">
+<div class="content">
+<pre>le réseau n'a donc pas connaissance des adresses "existantes" tant qu'elles ne font pas l'objet d'une transaction. La clé privée ne sera utilisée que pour dépenser des bitcoin, ce qui renforce la sécurité : on peut recevoir des bitcoins sur une adresse sans jamais avoir à faire intervenir la clé privée associé.</pre>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Qu&#8217;est-ce qu&#8217;une transaction ?</strong></p>
+</div>
+<div class="paragraph">
+<p>Une transaction = adresse source + adresse destination + montant à transférer</p>
+</div>
+<div class="paragraph">
+<p><strong>Problème : on ne veut pas d&#8217;autorité centrale pour générer de nouvelles transactions</strong><br>
+Solution &#8658; tout le monde peut créer des transactions de pair à pair</p>
+</div>
+<div class="paragraph">
+<p>Concrètement on construit un message signé par la clé privée correspondante à l&#8217;adresse source (pour prouver qu&#8217;on est bien propriétaire des bitcoins à transférer). Tout le monde peut vérifier que la transaction est valide en comparant sa signature avec l&#8217;adresse source (= clé publique correspondante à la signature)</p>
+</div>
+<div class="paragraph">
+<p>Une transaction peut être créée offline, imprimée sur papier, et être transmise sur le réseau dans un 2è temps. elle sera toujours valide sous réserve que l&#8217;adresse source soit approvisionnée au moment de son exécution.
+    (en réalité 1 tx peut avoir n input et n outputs)</p>
+</div>
+<div class="paragraph">
+<p><strong>Comment sont traitées les transactions ?</strong> concept de blockchain<br>
+<strong>Problème : on ne veut pas d&#8217;autorité centrale pour générer de nouvelles transactions</strong><br>
+Solution &#8658; tout le monde peut traiter les transactions</p>
+</div>
+<div class="paragraph">
+<p><strong>Problème : pour cela tout le monde doit être en mesure de vérifier la validité des transactions</strong> c à d de vérifier que l&#8217;adresse source dispose bien d&#8217;un solde de bitcoins suffisant pour les dépenser.<br>
+    Donc tout le monde doit potentiellement connaître le solde de toutes les adresses du réseau.<br>
+    Solution &#8658; tout le monde doit pouvoir connaître toutes les transactions depuis l&#8217;origine du réseau = le grand livre de compte, registre, ledger, du bitcoin.
+    C&#8217;est la blockchain. Actuellement cela pèse environ 60Go et ça grossit de quelques Mo chaque heure.
+    Pour s&#8217;assurer que la transaction est valide, on remonte dans l&#8217;historique de toutes les transactions qui ont eu lieu en partant de l&#8217;adresse source et ses ancêtres pour s&#8217;assurer que l&#8217;adresse a bien un solde suffisant.</p>
+</div>
+<div class="paragraph">
+<p>Une fois la transaction validée, elle peut être inscrite dans la blockchain.</p>
+</div>
+<div class="sect2">
+<h3 id="_en_r_sum">En résumé</h3>
+<div class="paragraph">
+<p>Le réseau Bitcoin repose sur :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>des "volontaires" qui font tourner des "full nodes", c&#8217;est à dire des noeuds qui enregistrent une copie complète de la blockchain afin d'être en mesure de vérifier la validité des transactions, et de détecter et rejeter les tentatives de fraude sur le réseau.
+Ce travail n&#8217;est pas rémunéré. Le nombre de "full nodes" est en baisse (environ 7000) ce qui lève des inquiétudes quant à la décentralisation du réseau.</p>
+</li>
+<li>
+<p>des "mineurs" qui traitent les transactions, c&#8217;est à dire qui les inscrivent dans la blockchain. Pour des raisons techniques, cette opération se fait bloc par bloc toutes les 10 minutes en moyenne, chaque bloc étant limité à 1mo de données (quelques milliers de transactions).</p>
+<div class="paragraph">
+<p>Pour ce travail, les mineurs reçoivent :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>une récompense pour chaque bloc miné (de 25btc actuellement, divisée par 2 dans quelques mois cf <em>bitcoin halving</em>),</p>
+</li>
+<li>
+<p>ils perçoivent les frais associés aux transactions traitées. Cette opération de minage est très coûteuse en énergie, ce qui garantit la sécurité du réseau (car il serait trop coûteux de falsifier les anciennes transactions comparé aux gains potentiels).
+    &#8658; "tout le monde" peut créer de la monnaie (avec de la puissance de calcul et de la chance)
+    &#8658; Le réseau est rythmé par les "battements de coeur" de la blockchain qui s&#8217;agrandit toutes les 10min en moyenne.
+    &#8658; le niveau de sécurité dépend du nombre de confirmations d&#8217;une transaction, c&#8217;est à dire du nombre de blocs créés depuis son intégration à la blockchain, et donc de l&#8217;ancienneté de la transaction.
+Une transaction transmise au réseau et qui n&#8217;est pas encore dans un bloc n&#8217;a aucune valeur.
+Une transaction incluse dans le dernier bloc est dite avoir "1 confirmation".
+Une transaction incluse dans l&#8217;avant-dernier bloc est dite avoir "2 confirmation". etc&#8230;&#8203; Le temps est un allié en matière de sécurité pour la blockchain.
+On considère que 3 transactions est un niveau de sécurité suffisant pour la plupart des tx (donc au bout de 30 minutes d&#8217;attente en moyenne). 6 confirmations = très haut. Selon le montant et la criticité de la transaction, on va donc attendre plus ou moins longtemps pour accepter une transaction.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="_en_d_tail">En détail</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Premier problème : si tout le monde peut créer des transactions sur le réseau, risque de spam et de saturation (espace disque et bande passante) si quelqu&#8217;un s&#8217;amuse à créer des milliers de transactions à la seconde.
+On veut donc limiter la vitesse de croissance de la blockchain et décourager le spam, oui mais comment ?</p>
+</li>
+<li>
+<p>Deuxième problème : comme toute monnaie, on a besoin d'émettre de la monnaie pour favoriser sa distribution, son adoption et amener de la liquidité. On veut pouvoir émettre de la monnaie sans autorité centrale.
+&#8658; Solution : tout le monde peut émettre de la monnaie. Oui mais on souhaite limiter la création monétaire à un rythme donné autrement elle perdra toute sa valeur.</p>
+<div class="literalblock">
+<div class="content">
+<pre>On va imposer une cadence au réseau : la blockchain va grandir par "blocs" à une cadence moyenne de 10 minutes environ. Chaque bloc pourra contenir 1mo de données (qq milliers de transactions traitées) et donnera lieu en même temps à de la création de nouvelle monnaie. Le fait de créer un bloc s'appelle le minage, sans mineur le réseau serait à l'arrêt : les transactions ne seraient pas traitées et aucune nouvelle monnaie ne serait émise.</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Pour gérer cette double contrainte antinomique (tout le monde peut compléter la blockchain mais pas trop et sans spam, tout le monde peut créer de la monnaie mais pas trop) les cryptomonnaies ont plusieurs approches pour résoudre ce problème. Bitcoin a choisi POW (proof of work).</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Pour forcer cette cadence (1 bloc/10min), la création d'un bloc nécessitera de solutionner un problème mathématique nécessitant du temps, de la puissance de calcul et de la chance.
+Chaque bloc devra avoir une entête qui correspond au hash de toutes les transactions de ce bloc, ce hash devra être inférieur à une certaine valeur qui va varier en fonction du temps passé à résoudre le temps précédent. Ainsi le réseau va s'autoréguler et s'adapter automatiquement au nombre de mineurs et à leur puissance de calcul pour faire en sorte qu'un bloc soit trouvé toutes les 10 minutes en moyenne.
+De + le mineur va choisir lui-même les transactions à intégrer dans le bloc parmi la liste des transactions en attente de traitement. Pour inciter le mineur à choisir sa transaction, l'usage est de mettre des frais de quelques millibitcoins. + on met de frais, + le mineur aura intéret à choisir sa transaction (car il en empochera les frais), et donc plus vite sera traitée la transaction. c'est aussi une protection antispam car une transaction sans aucun frais a très peu de chance d'être traitée un jour.</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>A chaque bloc créé, X nouveaux bitcoins sont créés et redistribués au premier mineur ayant trouvé la solution (au début 50, actuellement 25, mi 2016 12,5 pour limiter l'inflation).
+A chaque bloc créé, les transactions incluses dans ce bloc sont considérées comme exécutées.
+Les blocs s'ajoutent les uns après à la suite des autres  toutes les 10 minutes et forment la blockchain.</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Problème : que se passe t-il si 2 mineurs trouvent quasi simultanément des solutions valides ?
+Split de la blockchain, plusieurs blocs se rattachent à un même bloc, on se retrouve avec plusieurs branches.
+=&gt; Solution : on considère que la chaine la plus longue est la bonne. Plus le temps passe, plus l'une des 2 branches va être en retard sur l'autre, et plus les mineurs vont être incités à miner la branche la plus longue.
+La branche la plus courte sera invalidée automatiquement et les transactions seront invalidées.
+==&gt; Il y a donc un risque potentiel de voir sa transaction annulée en cas de split, même si c'est très rare. C'est aussi une attaque potentielle : si qq'un a suffisamment de puissance de calcul, il peut tirer une branche d'un bloc précédent pour tenter d'annuler le dernier bloc et faire du "double spending".</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Solution : le niveau de sécurité dépend du nombre de confirmations.</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Une transaction transmise au réseau et qui n'est pas encore dans un bloc n'a aucune valeur.
+Une transaction incluse dans le dernier bloc est dite avoir "1 confirmation".
+Une transaction incluse dans l'avant-dernier bloc est dite avoir "2 confirmation". etc... plus le temps passe, plus il est difficile de créer une branche pour invalider le bloc dans lequel se trouve la transaction. Etant donné que le mineur malveillant est seul contre tous, plus il s'attaque à un bloc ancien, plus il a besoin de puissance pour recalculer les blocs de retard et devenir la branche la plus longue et donc plus l'attaque sera coûteuse.
+On considère que 3 transactions est un niveau de sécurité suffisant pour la plupart des tx (donc au bout de 30 minutes d'attente en moyenne). 6 confirmations = très haut. Selon le montant et la criticité de la transaction, on va donc attendre plus ou moins longtemps pour accepter une transaction.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>qu&#8217;est ce qu&#8217;un pool de minage ?
+Pour donner un ordre de grandeur, le "hashrate" actuel du réseau est de quasiment 1 milliard de GH/s (sachant qu&#8217;un processeur ne produit que quelques MH/s, et qu&#8217;une bonne carte graphique produit quelques GH/s, et que du matériel ASIC spécialisé et onéreux produit quelques TH/s) [*] <a href="https://blockchain.info/fr/charts/hash-rate" class="bare">https://blockchain.info/fr/charts/hash-rate</a></p>
+<div class="literalblock">
+<div class="content">
+<pre>Vu cette énorme puissance, un mineur seul dans son garage a très peu de chance de trouver un bloc, et pourrait travailler dans le vide de nombreuses années sans recevoir aucune récompense en contrepartie. =&gt; les mineurs s'associent à plusieurs dans des "pools" pour coordonner leurs calculs, et répartir leurs gains à la hauteur de leur puissance, afin d'assurer une source de revenus constants. Ce phénomène est une potentielle faiblesse du réseau bitcoin car si un pool prenait trop d'importance et atteignait 51% de la puissance de calcul, il pourrait potentiellement dicter sa loi et valider n'importe quelle transaction, ce qui reviendrait à tuer le réseau. [*]https://blockchain.info/pools</pre>
+</div>
+</div>
+</li>
+<li>
+<p>contraintes liées à la taille de la blockchain
+On a vu que pour s&#8217;assurer de la validité d&#8217;une transaction, il faut connaître l&#8217;intégralité de la blockchain càd 60Go.
+Problème : ça fait lourd sur un mobile.
+Solution : wallet SPV qui ne va s&#8217;intéresser qu&#8217;aux entêtes des blocs de la blockchain pour s&#8217;assurer de la présence d&#8217;une transaction, sans télécharger le bloc entier. Cela est possible grâce à la structure des blocs en arbre de Merkle [<strong>] <a href="http://www.e-ducat.fr/bitcoin-et-les-arbres-de-merkle/" class="bare">http://www.e-ducat.fr/bitcoin-et-les-arbres-de-merkle/</a>
+Limite : un wallet SPV ne peut pas vérifier que la transaction est valide (= qu&#8217;elle est correctement signée), il sait juste que la transaction est présente dans le bloc mais fait confiance au reste du réseau qui l&#8217;a accepté vu que la blockchain est suffisamment longue.
+&#8658; il est vital pour bitcoin que suffisamment d&#8217;utilisateurs utilisent des wallets "full nodes" pour détecter les transactions invalides. [</strong>] <a href="https://bitnodes.21.co/" class="bare">https://bitnodes.21.co/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Il existe d&#8217;autres types de d&#8217;attaques potentielles qu&#8217;on ne verra pas en détail ici : transaction maleability, autres cas de double spending etc.</p>
+</div>
+<hr>
+<div class="ulist">
+<ul>
+<li>
+<p>mode de développement et d'évolution (BIP, évolutions/forks selon principe de vote des mineurs&#8230;&#8203;)</p>
+</li>
+<li>
+<p>débats notamment sur la taille de la blockchain (fork NXT).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Mesurer ses enjeux
+- disruption : suppression des autorités et des intermédiaires : banques, dns, mail, "uberisation d&#8217;uber"&#8230;&#8203;
+- utilisations monnaie programmable : multisig, smart contracts programmables, héritage, lotterie&#8230;&#8203;
+- utilisations blockchain aujourd&#8217;hui : bitmessage, preuve (horodatage) sur blockchain&#8230;&#8203;
+- demain : projets en cours (altcoins, ethereum&#8230;&#8203;), investissements, bulle blockchain</p>
+</div>
+<div class="paragraph">
+<p>Usages dans le monde
+- Certification et tracabilité de diamants : <a href="http://www.coindesk.com/everledger-blockchain-tech-fight-diamond-theft/" class="bare">http://www.coindesk.com/everledger-blockchain-tech-fight-diamond-theft/</a>
+- namecoin : noms de domaines décentralisés</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </section>
+
+  </article>
+
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2016. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    
+
+</body>
+</html>
