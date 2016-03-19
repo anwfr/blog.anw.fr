@@ -65,7 +65,9 @@ Solution => tout le monde peut traiter les transactions
 Une fois la transaction validée, elle peut être inscrite dans la blockchain.
     
     
-=== En résumé
+=== Comment fonctionne la blockchain ?
+
+==== En résumé
     
 Le réseau Bitcoin repose sur :
         
@@ -139,7 +141,7 @@ Limite : un wallet SPV ne peut pas vérifier que la transaction est valide (= qu
 Il existe d'autres types de d'attaques potentielles qu'on ne verra pas en détail ici : transaction maleability, autres cas de double spending etc.
 
 
----
+////
 
 - mode de développement et d'évolution (BIP, évolutions/forks selon principe de vote des mineurs...)
 - débats notamment sur la taille de la blockchain (fork NXT). 
@@ -155,3 +157,5 @@ Mesurer ses enjeux
 Usages dans le monde
 - Certification et tracabilité de diamants : http://www.coindesk.com/everledger-blockchain-tech-fight-diamond-theft/
 - namecoin : noms de domaines décentralisés
+
+////
