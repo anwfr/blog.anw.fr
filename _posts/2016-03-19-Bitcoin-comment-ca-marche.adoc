@@ -1,7 +1,7 @@
-= Fonctionnement de Bitcoin et de la Blockchain
-:hp-tags: bitcoin
+= Bitcoin, comment ça marche ?
+:hp-tags: bitcoin,blockchain
 
-Cet article décrit le plus succintement possible le fonctionnement de Bitcoin.
+Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain.
 
 
 == Bitcoin en pratique
