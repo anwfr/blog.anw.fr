@@ -20,7 +20,7 @@ Cet article décrit le plus succintement possible le fonctionnement de Bitcoin e
 
 
 == Comprendre son fonctionnement (concepts, sécurité, risques)
-===Qu'est-ce qu'une adresse ?
+=== Qu'est-ce qu'une adresse ?
 
 Pour recevoir des bitcoins il faut une adresse publique (comme une adresse email) se présentant sous la forme _1er7H9CxBQf9Hj6H3kMDCc45ZtPvFfsb7_ ou du QR code correspondant. Cette adresse doit être communiquée pour recevoir un paiement. Tout le monde peut envoyer des bitcoins vers une adresse publique (un commerçant peut imprimer le QR code de son adresse publique sur son comptoir pour recevoir des paiements). +
 Chaque adresse publique est associée à une clé privée connue par son seul propriétaire, et qui est requise pour dépenser les bitcoins qui s'y trouvent => cette clé doit rester secrete, c'est la clé du coffre.
@@ -40,7 +40,7 @@ Si on est parano et qu'on n'a pas confiance dans les logiciels :
     
 Le réseau n'a donc pas connaissance des adresses "existantes" tant qu'elles ne font pas l'objet d'une transaction. La clé privée ne sera utilisée que pour dépenser des bitcoin, ce qui renforce la sécurité : on peut recevoir des bitcoins sur une adresse sans jamais faire intervenir la clé privée associé.
     
-===Qu'est-ce qu'une transaction ?
+=== Qu'est-ce qu'une transaction ?
 
 Une transaction = adresse source + adresse destination + montant à transférer
     
