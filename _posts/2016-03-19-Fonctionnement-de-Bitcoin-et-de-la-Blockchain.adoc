@@ -62,19 +62,20 @@ Solution => tout le monde peut traiter les transactions
 Une fois la transaction validée, elle peut être inscrite dans la blockchain.
     
     
-==== EN BREF
+=== En résumé
     
 Le réseau Bitcoin repose sur :
         
-. des "volontaires" qui font tourner des "full nodes", c'est à dire qui enregistrent une copie de l'ensemble de la blockchain afin de vérifier la validité de l'intégralité des transactions, et de détecter et rejeter les tentatives de fraude sur le réseau.
-        Ce travail n'est pas rémunéré. Le nombre de "full nodes" est en baisse (environ 7000) ce qui lève des inquiétudes quant à la bonne décentralisation du réseau.
+. des "volontaires" qui font tourner des "full nodes", c'est à dire des noeuds qui enregistrent une copie complète de la blockchain afin d'être en mesure de vérifier la validité des transactions, et de détecter et rejeter les tentatives de fraude sur le réseau.
+        Ce travail n'est pas rémunéré. Le nombre de "full nodes" est en baisse (environ 7000) ce qui lève des inquiétudes quant à la décentralisation du réseau.
     
 
-. des "mineurs" qui traitent les transactions, c'est à dire qui les inscrivent dans la blockchain. Pour des raisons techniques, cette opération se fait bloc par bloc toutes les 10 minutes en moyenne, chaque bloc contenant 1mo de données (qq milliers de transactions).
+. des "mineurs" qui traitent les transactions, c'est à dire qui les inscrivent dans la blockchain. Pour des raisons techniques, cette opération se fait bloc par bloc toutes les 10 minutes en moyenne, chaque bloc étant limité à 1mo de données (quelques milliers de transactions).
 +
-Pour ce travail, les mineurs reçoivent 
+Pour ce travail, les mineurs reçoivent :
 
-	1. une récompense pour chaque bloc miné (de 25btc actuellement), 
+	1. une récompense pour chaque bloc miné (de 25btc actuellement, divisée par 2 dans quelques mois cf _bitcoin halving_), 
+    
     2. ils perçoivent les frais associés aux transactions traitées. Cette opération de minage est très coûteuse en énergie, ce qui garantit la sécurité du réseau (car il serait trop coûteux de falsifier les anciennes transactions comparé aux gains potentiels). 
         => "tout le monde" peut créer de la monnaie (avec de la puissance de calcul et de la chance)
         => Le réseau est rythmé par les "battements de coeur" de la blockchain qui s'agrandit toutes les 10min en moyenne.
@@ -87,7 +88,7 @@ Pour ce travail, les mineurs reçoivent
 
     
     
-==== EN DETAIL
+==== En détail
     
     - Premier problème : si tout le monde peut créer des transactions sur le réseau, risque de spam et de saturation (espace disque et bande passante) si quelqu'un s'amuse à créer des milliers de transactions à la seconde.
     On veut donc limiter la vitesse de croissance de la blockchain et décourager le spam, oui mais comment ? 
