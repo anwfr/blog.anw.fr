@@ -13,7 +13,7 @@ Getting all this stuff working together:
 
 
 
-== The solution
+== Solution
 There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
 
 . *Plug and turn everything on*
