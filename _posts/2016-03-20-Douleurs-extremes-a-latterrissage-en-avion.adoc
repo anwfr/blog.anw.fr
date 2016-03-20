@@ -2,7 +2,7 @@
 :hp-tags: santé, fixed
 
 == Le problème
-Douleurs atroces à l'atterrissage en avion qui se manifestent par :
+Douleurs insupportables à l'atterrissage en avion qui se manifestent par :
 
 - mal de tête intense au niveau des yeux, sinus, crâne (sensation d'étau qui se resserre, clou dans l'oeil, implosion/explosion... _céphalée_)
 - mal aux oreilles, sinus, pouvant se propager jusque dans la mâchoire
@@ -18,7 +18,7 @@ Peu d'infos à ce sujet sur internet, peu de médecins prennent le problème au 
 - Le phénomène très accentué en cas de rhume ou sinusite
 
 
-== La solution
+== Solution
 
 - Prendre un décongestionnant avant l'atterrissage, par exemple :
 	* Le plus efficace, *Derinox* : 2 pulvérisation dans le nez (narine oposée à l'oreille qui vient de se boucher) un peu avant la descente
