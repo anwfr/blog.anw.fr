@@ -1,5 +1,5 @@
 = Comment arrêter de ronfler
-:hp-tags: santé, fixed
+:hp-tags: santé, solution
 
 == Le problème
 Vous avez tout essayé :
