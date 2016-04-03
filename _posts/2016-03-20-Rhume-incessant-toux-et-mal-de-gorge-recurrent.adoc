@@ -1,4 +1,4 @@
-= Rhume incessant, toux et mal de gorge récurrent, nez bouché
+= Rhume incessant, toux et mal de gorge récurrent
 :hp-tags: santé, fixed
 
 == Le problème
