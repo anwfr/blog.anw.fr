@@ -2,7 +2,7 @@
 :hp-tags: santé, fixed
 
 == Le problème
-- Vous enchaînez rhume sur rhume tout au long de l'année, nez bouché suivi d'un mal de gorge
+- Vous enchaînez rhume sur rhume tout au long de l'année, nez bouché puis mal de gorge
 - Quintes de toux violentes et prolongées plusieurs fois par an, sensation de chatouille dans la gorge à l'expiration, au point de ne plus pouvoir parler sans tousser
 - Les tests d'allergie n'ont rien donné
 
