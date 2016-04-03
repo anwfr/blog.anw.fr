@@ -1,5 +1,5 @@
 = Douleurs extrêmes à l'atterrissage en avion
-:hp-tags: santé, fixed
+:hp-tags: santé, solution
 
 == Le problème
 Douleurs insupportables à l'atterrissage en avion qui se manifestent par :
