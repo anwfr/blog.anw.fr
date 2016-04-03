@@ -7,8 +7,9 @@
 - Les tests d'allergie n'ont rien donné
 
 == Une explication possible
-Vous êtes peut-être victime de _Reflux Gastro-Oesophagien_ (_RGO_) qui touche 30 à 40% de la population. +
-Des gazs acides remontent dans l'oesophage et provoquent son irritation. Les médecins peuvent longtemps passer à côté de ce diagnostic.
+Vous êtes peut-être victime de _Reflux Gastro-Oesophagien_ (_RGO_) qui touche 30 à 40% de la population. 
+Des gazs acides remontent dans l'oesophage et provoquent son irritation. +
+Les médecins peuvent longtemps passer à côté de ce diagnostic.
 
 == Solution
 En parler à votre médecin qui vous conseillera pour :
