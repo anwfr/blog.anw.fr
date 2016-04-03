@@ -5,31 +5,6 @@
 
 
 
-== Les causes et facteurs déclencheurs
-
-- Avant la naissance (transmission intra-utérine, mémoire cellulaire)
-  * Déprime ou stress de la mère
-  * Bébé non désiré
-
-- A la naissance
-  * Naissance prématurée : arrachement du bébé à sa mère
-
-- Enfance / adolescence
-  * Enfant élevé à la dure : manque de témoignage d'affection de la part des parents
-  * Parent absent
-  * Tête de turc : maltraitance à l'école / au collège, non soutenu par les parents ("tu n'as qu'à te défendre")
-  * Dévalorisation par les parents ("Quel bon à rien", "Si je meurs qu'est ce que tu vas devenir")
-  * Succession d'abus : physiques, sexuels, psychologiques.
-  
-  
-Ces facteurs ne provoquent pas systématiquement de trouble de la personnalité borderline, mais leur cumul et l'âge sont déterminants :
-
-6 ans < très grave < 15-16 ans < grave <  22 ans < moins grave
-  
-  
-
-
-
 
 == Symptômes
 Pour le malade :
@@ -42,7 +17,7 @@ Pour le malade :
 - Intelligence / douance fréquente
 - Nécessité permanente d'avoir quelqu'un dans sa vie
 - Aversion fréquente envers sa mère
-- Sentiment de donner beaucoup et ne pas savoir demander, "maladresse" en société
+- Sentiment de donner beaucoup et de ne pas savoir demander, "maladresse" en société
   
   
 Pour son entourage :
@@ -66,6 +41,36 @@ Pour son psy :
 - Tout va toujours bien en début de scéance, il faut creuser pour trouver ce qui ne va pas
 - Chaque nouvelle scéance est un recommencement, les problèmes de la scéance précédente sont oubliés, rien n'est acquis
   
+
+
+
+== Les causes et facteurs déclencheurs
+
+  
+Les facteurs ci-dessous ne provoquent pas systématiquement de trouble de la personnalité limite, mais leur cumul et l'âge sont déterminants :
+
+6 ans < très grave < 15-16 ans < grave <  22 ans < moins grave
+
+
+- Avant la naissance (transmission intra-utérine, mémoire cellulaire)
+  * Déprime ou stress de la mère
+  * Bébé non désiré
+
+- A la naissance
+  * Naissance prématurée : arrachement du bébé à sa mère
+
+- Enfance / adolescence
+  * Enfant élevé à la dure : manque de témoignage d'affection de la part des parents
+  * Parent absent
+  * Tête de turc : maltraitance à l'école / au collège, non soutenu par les parents ("tu n'as qu'à te défendre")
+  * Dévalorisation par les parents ("Quel bon à rien", "Si je meurs qu'est ce que tu vas devenir")
+  * Succession d'abus : physiques, sexuels, psychologiques.
+  
+
+  
+  
+
+
 
 
 
