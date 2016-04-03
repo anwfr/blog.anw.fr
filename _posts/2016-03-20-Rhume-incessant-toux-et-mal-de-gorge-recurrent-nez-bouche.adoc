@@ -1,13 +1,16 @@
-= Rhume incessant, mal de gorge récurrent, nez bouché
+= Rhume incessant, toux et mal de gorge récurrent, nez bouché
 :hp-tags: santé, fixed
 
 == Le problème
-Vous enchaînez rhume sur rhume tout au long de l'année. Les tests d'allergie n'ont rien donné.
+- Vous enchaînez rhume sur rhume tout au long de l'année, nez bouché suivi d'un mal de gorge
+- Quintes de toux violentes et prolongées plusieurs fois par an, sensation de chatouille dans la gorge à l'expiration, au point de ne plus pouvoir parler sans tousser
+- Les tests d'allergie n'ont rien donné
 
 == Une explication possible
 Vous êtes peut-être victime de _Reflux Gastro-Oesophagien_ (_RGO_) qui touche 30 à 40% de la population. +
-Les médecins passent souvent à côté de ce diagnostic.
+Des gazs acides remontent dans l'oesophage et provoquent son irritation. Les médecins peuvent longtemps passer à côté de ce diagnostic.
 
 == Solution
+En parler à votre médecin qui vous conseillera pour :
 - revoir votre alimentation
-- traitement adapté (oméprazole, gaviscon...)
+- un traitement adapté (oméprazole, gaviscon...)
