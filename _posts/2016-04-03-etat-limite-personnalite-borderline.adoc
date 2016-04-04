@@ -1,5 +1,5 @@
 = L'etat limite / borderline
-:hp-alt-title: etat limite borderline tpl
+:hp-alt-title: etat limite personnalité borderline
 :hp-tags: focus
 
 Maladie également nommée *Trouble de la Personnalité Limite* ou *TPL*. +
