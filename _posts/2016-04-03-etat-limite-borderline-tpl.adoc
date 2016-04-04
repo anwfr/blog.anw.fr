@@ -2,7 +2,8 @@
 :hp-alt-title: etat limite borderline tpl
 :hp-tags: focus
 
-Aussi nommé *Trouble de la Personnalité Limite* ou *TPL*.
+Maladie également nommée *Trouble de la Personnalité Limite* ou *TPL*. +
+Ces notes sont issues d'un groupe de parole mené par *Pierre Nantas* ainsi que de précieux témoignages.
 
 
 == Symptômes
@@ -144,4 +145,5 @@ Lectures conseillées :
 Sources :
 
 http://aforpel.org/ +
-http://aapel.org
+http://aapel.org +
+http://www.pierre-nantas-psychotherapeute.paris/
