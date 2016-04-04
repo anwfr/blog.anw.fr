@@ -1,41 +1,39 @@
 = L'etat limite / borderline
-:hp-alt-title: etat limite borderline
+:hp-alt-title: etat limite borderline tpl
 :hp-tags: focus
 
-
-
-
+Aussi nommé *Trouble de la Personnalité Limite* ou *TPL*.
 
 
 == Symptômes
 Pour le malade :
 
-- Peur panique de l'abandon, peur du changement
-- Hypersensibilité
-- Sensation de vide affectif, de ne pas être aimé, chute dans un "puits sans fond"
-- Impression de ne pas être compris ou écouté
-- Difficulté à maintenir une relation perso ou pro dans la durée
-- Intelligence / douance fréquente
-- Nécessité permanente d'avoir quelqu'un dans sa vie
-- Sentiment de donner beaucoup et de ne pas savoir demander, "maladresse" en société
-- Besoin de justice
+- *Peur panique de l'abandon*, peur du changement
+- *Hypersensibilité*
+- Sensation de *vide affectif*, de ne pas être aimé, chute dans un "puits sans fond"
+- Impression de *ne pas être compris* ou écouté
+- Difficulté à *maintenir des relations* perso ou pro dans la durée
+- Intelligence / *douance* fréquente
+- Nécessité permanente d'*avoir quelqu'un dans sa vie*
+- Sentiment de donner beaucoup et de ne pas savoir demander, *maladresse sociale*
+- Besoin de *justice*
 - Comportements à risques
 - Forte rancoeur envers quelqu'un (souvent la mère)
+- La dépression est une conséquence fréquente
   
   
 Pour son entourage :
 
-- Crises que l'on ne voit pas venir
 - L'entourage peut voir le malade comme :
-   * Egoïste ou égocentrique
+   * *Egocentrique* (soucieux du regard des autres) voire égoïste (bien que ce soit en réalité plutôt le contraire)
    * Impatient
-   * Ayant des réactions disproportionnées pour des détails de la vie courante +
+   * Ayant des réactions disproportionnées face aux "petites contrariétés" de la vie courante ou sur ce qui peut sembler relever du détail +
    (ex : si l'on ne répond pas à la seconde à ses sollicitations / ses messages)
-   * Sautes d'humeur, crises graves mais rapidement minimisées par le malade
+   * Sautes d'humeur, crises que l'on ne voit pas venir, mais qui peuvent rapidement passer si l'on parvient à se comprendre
 - L'entourage en souffre :
    * Sensation d'être manipulé ou culpabilisé
    * Sentiment de sauveur envers le malade
-   * Attaques subies sur ses points faibles
+   * Attaques ciblant ses points faibles personnels
 
 
 Pour son psy :
@@ -43,7 +41,7 @@ Pour son psy :
 - Chaque malade est différent
 - Tout va toujours bien en début de scéance, il faut creuser pour trouver ce qui ne va pas
 - Chaque nouvelle scéance est un recommencement, les problèmes de la scéance précédente sont oubliés, rien n'est acquis
-  
+- Il dit souvent "je pense, je sais" mais jamais "je ressens"
 
 
 
@@ -53,7 +51,7 @@ Pour son psy :
 
   
 Les facteurs suivants ne provoquent pas systématiquement de trouble de la personnalité limite, mais leur cumul et le jeune âge sont déterminants : +
-très grave < 6 ans < grave < 15-16 ans < moins grave <  22 ans < peu grave
+très grave < *6 ans* < grave < *15-16 ans* < moins grave <  *22 ans* < peu grave
 
 
 - Avant la naissance (transmission intra-utérine, mémoire cellulaire)
@@ -66,7 +64,7 @@ très grave < 6 ans < grave < 15-16 ans < moins grave <  22 ans < peu grave
   * Enfant élevé à la dure : manque de témoignage d'affection de la part des parents
   * Parent absent
   * Parent ayant des problèmes personnels (addictions etc) : dans certains cas infantilisation du parent dont l'enfant doit s'occuper
-  * Tête de turc : maltraitance à l'école / au collège, non soutenu par les parents ("tu n'as qu'à te défendre")
+  * Tête de turc : maltraitance à l'école / au collège, absence de soutient des parents ("tu n'as qu'à te défendre")
   * Dévalorisation par les parents ("bon à rien", "si je meurs qu'est ce que tu vas devenir")
   * Succession d'abus : physiques, sexuels, psychologiques.
   
@@ -82,22 +80,22 @@ La maladie touche autant les femmes que les hommes, mais s'exprime différemment
 - Les femmes auront tendance à retourner leur douleur contre elles-mêmes : scarification, anorexie, etc. ("si je sors ma violence je casse tout")
 - Les hommes l'expriment plus souvent sur les autres : violences, cherchent les coups
 
-Il dit "je pense, je sais" mais jamais "je ressens".
 
+Un borderline n'est jamais tranquille / serein. Il se sent en permanence agressé/harcelé par son environnement de par son hypersensibilité. 
+Il y réagit de manière disproportionnée, inadaptée, maladroite.
 
-  
-  
-Deux borderlines ne s'attirent généralement pas.
+Lorsqu'il est submergé par ses émotions, il peut entrer dans une profonde colère qui n'est autre que l'expression de sa panique.
 
-Un enfant victime d'abus aura tendance à se rapprocher inconsciemment de personnes qui vont abuser de lui - susceptibles de lui faire revivre son traumatisme.
-
-
-
-Un borderline n'est jamais tranquille / serein.
-
-Un borderline qui fait une tentative de suicide ne veut pas mourrir, il veut mettre fin à sa souffrance et appeler à l'aide. Un suicide réussi est une tentative ratée allée trop loin.
  
 Le borderline est l'inverse du pervers narcissique : il a énormément d'émotions qu'il ne sait pas gérer, contrairement au PN qui ne ressent rien.
+  
+  
+Deux borderlines ne s'attirent généralement pas. Un enfant victime d'abus aura souvent tendance à "attirer" inconsciemment des personnes qui pourraient abuser de lui et lui faire revivre son traumatisme.
+
+
+
+
+Un borderline qui fait une tentative de suicide ne veut pas mourrir, il veut mettre fin à sa souffrance qu'il ne peut supporter. Un suicide réussi est une tentative ratée allée trop loin.
 
 
 
@@ -105,40 +103,38 @@ Le borderline est l'inverse du pervers narcissique : il a énormément d'émotio
 
 
 == En guérir
-Maladie reconnue et classifiée dans DSM4. 
-Mais elle est très peu connue en France, peu de professionnels sont formés.
+Cette maladie est *reconnue et classifiée dans DSM4* (US). 
+Mais elle est très peu connue en France voire contestée, peu de professionnels sont formés.
 
-Cette maladie ne peut se soigner sans psychothérapie spécifique au trouble de l'état limite. Un thérapeuthe "à l'ancienne" qui l'écoute parler les bras croisés ne donnera pas de résultats.
+Cette maladie ne peut se soigner sans *psychothérapie spécifique* au trouble de l'état limite. Un thérapeuthe "à l'ancienne" qui l'écoute parler les bras croisés ne donnera aucun résultat. Le malade doit se sentir bien avec le thérapeute dès la 1è scéance : nécessité d'un minimum de *lien affectif*. 
 
+Une thérapie adaptée permettra d'apprendre à gérer ses émotions au quotidien (ex : *thérapie des schémas de Young*). Le travail se concentre sur l'enfant intérieur du malade.
 
-Une thérapie adaptée permettra d'apprendre à gérer ses émotions au quotidien (ex : thérapie des schémas de Young). Le travail se concentre sur l'enfant intérieur du malade.
-
-Trouver un thérapeute avec qui le malade se sent bien dès la 1è scéance. 
 A partir du moment où le malade se sent compris, cela va très vite et peut se guérir en un peu plus d'1 an.
-Pour les malades les plus difficiles il faut 2 ans.
+Pour les malades les plus difficiles il faut jusqu'à 2 ans.
 
 Rythme décroissant :
 
 - 1 scéance / semaines durant les 3/4 premiers mois (environ 20 scéances)
-- 1 scéance  / 2 semaines ensuite
+- 1 scéance / 2 semaines ensuite
 - 1 scéance / mois ensuite
 
 
 Lectures conseillées :
 
-- Pour le borderline : "Je réinvente ma vie" - Jeffrey E. Young
-- Pour le borderline et son entourage : "Les borderlines" - Bernard Granger, Daria Karaklic
+- "Je réinvente ma vie" - Jeffrey E. Young : pour le borderline
+- "Les borderlines" - Bernard Granger, Daria Karaklic : pour le borderline et son entourage
 
 
 == Contre-indications
 
-Eviter les médicaments. Si le malade est déjà sous traitement, le premier travail consistera en son sevrage progressif. Notamment :
+*Eviter les médicaments*. Si le malade est déjà sous traitement, le premier travail consistera en son sevrage progressif. Notamment :
 
-- Benzodizepine : à éviter absolument
+- *Benzodiazepine : à éviter absolument*
 - Temesta / Xanax : addictif et détruisent le foie
 - Depakote : fait grossir et tomber les cheveux
 
-Psychanalyse contre-indiquée.
+*Psychanalyse contre-indiquée*.
 
 
 
