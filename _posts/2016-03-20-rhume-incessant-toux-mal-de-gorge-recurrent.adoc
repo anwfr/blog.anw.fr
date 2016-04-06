@@ -1,4 +1,6 @@
 = Rhume incessant, toux et mal de gorge récurrent
+:hp-alt-title: rhume incessant toux mal de gorge recurrent
+
 :hp-tags: santé, solution
 
 == Le problème
