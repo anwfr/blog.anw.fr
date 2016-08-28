@@ -2,7 +2,7 @@
 :hp-tags: hardware, solution
 
 
-*The problem:* getting the following lamps:
+Getting the following lamps:
 
 * Living Colors (LC) and Living Bloom gen2 
 * Philips Hue white/color bulbs
