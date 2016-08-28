@@ -3,11 +3,11 @@
 
 :hp-tags: santé, solution
 
-== Le problème
-- Vous enchaînez rhume sur rhume tout au long de l'année, nez bouché puis mal de gorge
-- Episodes de toux violentes s'étalant sur plusieurs semaines, plusieurs fois par an +
+Symptômes :
+- Rhume incessant tout au long de l'année, nez bouché suivi d'un mal de gorge
+- Episodes de toux violentes sur plusieurs semaines, plusieurs fois par an +
 Sensation de chatouille dans la gorge à l'expiration, au point de ne plus pouvoir parler sans tousser
-- Les tests d'allergie n'ont rien donné
+- Les tests d'allergie ne donnent rien
 
 == Explication possible
 Vous êtes peut-être victime de _Reflux Gastro-Oesophagien_ (_RGO_) qui touche 30 à 40% de la population. 
