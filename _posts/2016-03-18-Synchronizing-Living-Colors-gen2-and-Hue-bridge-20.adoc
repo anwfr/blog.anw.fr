@@ -1,5 +1,5 @@
 = Synchronizing Living Colors gen2 and Hue bridge 2.0
-:hp-tags: stuff, solution
+:hp-tags: hardware, solution
 
 == The problem
 
