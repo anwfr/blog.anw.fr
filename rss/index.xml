@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 11:27:18 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 11:32:57 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Le <strong>Trouble de la Personnalité Limite</strong> ou <strong>TPL</strong> est une <strong>maladie reconnue</strong> et décrite dans le DSM-IV (US). Elle reste <strong>méconnue en France</strong> voire contestée, souvent confondue avec le <strong>trouble bipôlaire</strong>.<br>
@@ -719,7 +719,7 @@ Limite : un wallet SPV ne peut pas vérifier que la transaction est valide (= qu
 <h2 id="_the_problem">The problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Getting all this stuff working together:</p>
+<p>Getting all of this working together:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -737,14 +737,14 @@ Limite : un wallet SPV ne peut pas vérifier que la transaction est valide (= qu
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>There are almost no post on internet about it. Instructions for remote v1 doesn&#8217;t work with remote v2.</p>
+</div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="_solution">Solution</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>There are almost no post on internet about it, and instructions for remote v1 doesn&#8217;t work with remote v2.</p>
-</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
