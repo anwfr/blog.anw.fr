@@ -9,6 +9,7 @@ Getting the following lamps:
 * Philips Hue white/color bulbs
 
 All controlled by:
+
 * Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors)
 * Philips bridge v2
 
