@@ -39,12 +39,10 @@ Pour son entourage :
 
 Pour son psy :
 
-- Chaque malade est *différent*
 - Ne dit pas d'emblée ce qui ne va pas en début de scéance, il faut creuser pour trouver ce qui ne va pas
 - Chaque nouvelle scéance est un recommencement, les problèmes de la scéance précédente sont oubliés, *rien n'est acquis*
 - Il dit souvent "je pense, je sais" mais jamais "je ressens"
-
-
+- Chaque malade est différent et imprévisible
 
 
 
@@ -55,10 +53,12 @@ Les facteurs suivants ne provoquent pas systématiquement de trouble de la perso
 très grave < *6 ans* < grave < *15-16 ans* < moins grave <  *22 ans* < peu grave
 
 
-- Avant la naissance (transmission intra-utérine, mémoire cellulaire)
+Avant la naissance (transmission intra-utérine, mémoire cellulaire)
+
   * Déprime ou stress de la *mère*
 
-- A la naissance
+A la naissance
+
   * Naissance *prématurée* : arrachement du bébé à sa mère
 
 - Enfance / adolescence
