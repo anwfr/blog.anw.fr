@@ -2,7 +2,6 @@
 :hp-alt-title: douleurs extremes atterrissage avion
 :hp-tags: santé, solution
 
-== Le problème
 Douleurs insupportables à l'atterrissage en avion qui se manifestent par :
 
 - mal de tête intense au niveau des yeux, sinus, crâne (sensation d'étau qui se resserre, clou dans l'oeil, implosion/explosion... _céphalée_)
@@ -38,13 +37,12 @@ L'important est de dégager le nez et les sinus avant que la douleur ne se produ
     * _Oreilles de mickey_ : en cas de douleur insupportable, les hotesses peuvent vous préparer des lingettes imbibées d'eau brûlante dans 2 gobelets, à plaquer hermétiquement contre vos oreilles... la chaleur fera son effet. Cela semble très bien fonctionner et c'est particulièrement sexy ;-)
     * En plus discret : emmener 2 chaufferettes à main et les plaquer contre les oreilles
     
-- Le N300, dispositif pour décompresser les oreilles (http://n300.fr) - non testé
-
-    
 - D'autres solutions moins efficaces :
     * Mâcher un chewing gum
     * Se forcer à bâiller
     * Manoeuvre de vasalva : dangereuse pour les tympans, à éviter
+    * Le N300, dispositif pour décompresser les oreilles (http://n300.fr) ne semble pas efficace
+
     
     
     
