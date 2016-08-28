@@ -2,7 +2,7 @@
 :hp-alt-title: etat limite personnalite borderline
 :hp-tags: focus
 
-Le *Trouble de la Personnalité Limite* ou *TPL* est une *maladie reconnue* et décrite dans le DSM-IV (US). Elle reste méconnue en France voire contestée, souvent confondue avec le trouble bipôlaire. +
+Le *Trouble de la Personnalité Limite* ou *TPL* est une maladie reconnue et décrite dans le DSM-IV (US). Méconnue en France voire contestée, elle est souvent confondue avec le trouble bipôlaire. +
 Bien que le terme *borderline* soit entré dans le langage courant, peu de gens connaissent précisément sa signification. Peu de professionnels sont formés et de nombreux malades restent démunis et incompris.
 
 
@@ -11,12 +11,12 @@ Pour le malade :
 
 - *Peur panique de l'abandon*, peur du changement
 - *Hypersensibilité*
-- Sensation de *vide affectif*, de ne pas être aimé, chute dans un "puits sans fond"
+- Sensation de *vide affectif*, de ne pas être aimé
 - Sentiment de *ne pas être compris* ou écouté
-- Difficulté à *maintenir des relations* affectives ou pro dans la durée
-- Intelligence / *douance* fréquente
+- Difficulté à *maintenir des relations* affectives ou professionnelles dans la durée
+- Intelligence / *douance* 
 - Nécessité permanente d'*avoir quelqu'un dans sa vie*
-- Sentiment de donner beaucoup et de ne pas savoir demander, *maladresse sociale*
+- Sentiment de donner beaucoup sans savoir demander, *maladresse sociale*
 - Besoin de *justice*
 - Comportements à risques
 - Forte rancoeur envers quelqu'un (souvent la mère)
@@ -26,10 +26,10 @@ Pour le malade :
 Pour son entourage :
 
 - L'entourage peut voir le malade comme :
-   * *Egocentrique* (soucieux du regard des autres) voire égoïste (bien que ce soit en réalité plutôt le contraire)
+   * *Egocentrique* (soucieux du regard des autres) voire égoïste
    * *Impatient*
-   * Ayant des *réactions disproportionnées* face aux "petites contrariétés" de la vie courante ou sur ce qui peut sembler relever du détail (parce qu'il est hypersensible !) +
-   (ex : si l'on ne répond pas à la seconde à ses sollicitations / ses messages)
+   * Ayant des *réactions disproportionnées* face aux "petites contrariétés" de la vie, sur ce qui peut sembler relever du détail (car hypersensible) +
+   (ex : si l'on ne répond pas immédiatement à ses sollicitations / ses messages)
    * *Sautes d'humeur*, crises que l'on ne voit pas venir, mais qui peuvent rapidement passer si l'on parvient à se comprendre
 - L'entourage en souffre :
    * Sensation d'être *manipulé* ou culpabilisé
@@ -38,7 +38,7 @@ Pour son entourage :
 
 
 Pour son psy :
-@@
+
 - Chaque malade est *différent*
 - Ne dit pas d'emblée ce qui ne va pas en début de scéance, il faut creuser pour trouver ce qui ne va pas
 - Chaque nouvelle scéance est un recommencement, les problèmes de la scéance précédente sont oubliés, *rien n'est acquis*
