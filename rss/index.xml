@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 12:11:08 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 12:11:39 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Le <strong>Trouble de la Personnalité Limite</strong> ou <strong>TPL</strong> est une maladie reconnue et décrite dans le DSM-IV (US). Méconnue en France voire contestée, elle est souvent confondue avec le trouble bipôlaire.<br>
@@ -123,9 +123,10 @@ Bien que le terme <strong>borderline</strong> soit entré dans le langage couran
 <p>Les facteurs suivants ne provoquent pas systématiquement de trouble de la personnalité limite, mais leur cumul et le jeune âge sont déterminants :<br>
 très grave &lt; <strong>6 ans</strong> &lt; grave &lt; <strong>15-16 ans</strong> &lt; moins grave &lt;  <strong>22 ans</strong> &lt; peu grave</p>
 </div>
-<div class="paragraph">
+<div class="ulist">
+<ul>
+<li>
 <p>Avant la naissance (transmission intra-utérine, mémoire cellulaire)</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
@@ -133,21 +134,21 @@ très grave &lt; <strong>6 ans</strong> &lt; grave &lt; <strong>15-16 ans</stron
 </li>
 </ul>
 </div>
-<div class="paragraph">
+</li>
+<li>
 <p>A la naissance</p>
-</div>
 <div class="ulist">
 <ul>
 <li>
 <p>Naissance <strong>prématurée</strong> : arrachement du bébé à sa mère</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Enfance / adolescence</p>
 </li>
 </ul>
 </div>
 </li>
+<li>
+<p>Enfance / adolescence</p>
+<div class="ulist">
+<ul>
 <li>
 <p>Enfant élevé à la dure : <strong>manque de témoignage d&#8217;affection</strong> de la part des parents</p>
 </li>
@@ -165,6 +166,9 @@ très grave &lt; <strong>6 ans</strong> &lt; grave &lt; <strong>15-16 ans</stron
 </li>
 <li>
 <p><strong>Succession d&#8217;abus</strong> : physiques, sexuels, psychologiques.</p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
