@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 11:44:46 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 11:50:46 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Le <strong>Trouble de la Personnalité Limite</strong> ou <strong>TPL</strong> est une <strong>maladie reconnue</strong> et décrite dans le DSM-IV (US). Elle reste <strong>méconnue en France</strong> voire contestée, souvent confondue avec le <strong>trouble bipôlaire</strong>.<br>
@@ -327,8 +327,7 @@ Les médecins peuvent longtemps passer à côté de ce diagnostic.</p>
 </ul>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2016/03/20/rhume-incessant-toux-mal-de-gorge-recurrent.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/03/20/rhume-incessant-toux-mal-de-gorge-recurrent.html</guid><category><![CDATA[santé]]></category><category><![CDATA[ solution]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Sun, 20 Mar 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Douleurs extrêmes à l'atterrissage en avion]]></title><description><![CDATA[<div class="sect1">
-<h2 id="_le_probl_me">Le problème</h2>
+</div>]]></description><link>http://blog.anw.fr/2016/03/20/rhume-incessant-toux-mal-de-gorge-recurrent.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/03/20/rhume-incessant-toux-mal-de-gorge-recurrent.html</guid><category><![CDATA[santé]]></category><category><![CDATA[ solution]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Sun, 20 Mar 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Douleurs extrêmes à l'atterrissage en avion]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Douleurs insupportables à l&#8217;atterrissage en avion qui se manifestent par :</p>
@@ -420,9 +419,6 @@ Les médecins peuvent longtemps passer à côté de ce diagnostic.</p>
 </div>
 </li>
 <li>
-<p>Le N300, dispositif pour décompresser les oreilles (<a href="http://n300.fr" class="bare">http://n300.fr</a>) - non testé</p>
-</li>
-<li>
 <p>D&#8217;autres solutions moins efficaces :</p>
 <div class="ulist">
 <ul>
@@ -434,6 +430,9 @@ Les médecins peuvent longtemps passer à côté de ce diagnostic.</p>
 </li>
 <li>
 <p>Manoeuvre de vasalva : dangereuse pour les tympans, à éviter</p>
+</li>
+<li>
+<p>Le N300, dispositif pour décompresser les oreilles (<a href="http://n300.fr" class="bare">http://n300.fr</a>) ne semble pas efficace</p>
 </li>
 </ul>
 </div>
