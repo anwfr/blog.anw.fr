@@ -1,9 +1,8 @@
 = Synchronizing Living Colors gen2 and Hue bridge 2.0
 :hp-tags: hardware, solution
 
-== The problem
 
-Getting the following lamps:
+*The problem:* getting the following lamps:
 
 * Living Colors (LC) and Living Bloom gen2 
 * Philips Hue white/color bulbs
