@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 12:02:51 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Aug 2016 12:08:44 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[L'etat limite / borderline]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Le <strong>Trouble de la Personnalité Limite</strong> ou <strong>TPL</strong> est une <strong>maladie reconnue</strong> et décrite dans le DSM-IV (US). Elle reste méconnue en France voire contestée, souvent confondue avec le trouble bipôlaire.<br>
+<p>Le <strong>Trouble de la Personnalité Limite</strong> ou <strong>TPL</strong> est une maladie reconnue et décrite dans le DSM-IV (US). Méconnue en France voire contestée, elle est souvent confondue avec le trouble bipôlaire.<br>
 Bien que le terme <strong>borderline</strong> soit entré dans le langage courant, peu de gens connaissent précisément sa signification. Peu de professionnels sont formés et de nombreux malades restent démunis et incompris.</p>
 </div>
 </div>
@@ -21,22 +21,22 @@ Bien que le terme <strong>borderline</strong> soit entré dans le langage couran
 <p><strong>Hypersensibilité</strong></p>
 </li>
 <li>
-<p>Sensation de <strong>vide affectif</strong>, de ne pas être aimé, chute dans un "puits sans fond"</p>
+<p>Sensation de <strong>vide affectif</strong>, de ne pas être aimé</p>
 </li>
 <li>
 <p>Sentiment de <strong>ne pas être compris</strong> ou écouté</p>
 </li>
 <li>
-<p>Difficulté à <strong>maintenir des relations</strong> affectives ou pro dans la durée</p>
+<p>Difficulté à <strong>maintenir des relations</strong> affectives ou professionnelles dans la durée</p>
 </li>
 <li>
-<p>Intelligence / <strong>douance</strong> fréquente</p>
+<p>Intelligence / <strong>douance</strong></p>
 </li>
 <li>
 <p>Nécessité permanente d'<strong>avoir quelqu&#8217;un dans sa vie</strong></p>
 </li>
 <li>
-<p>Sentiment de donner beaucoup et de ne pas savoir demander, <strong>maladresse sociale</strong></p>
+<p>Sentiment de donner beaucoup sans savoir demander, <strong>maladresse sociale</strong></p>
 </li>
 <li>
 <p>Besoin de <strong>justice</strong></p>
@@ -62,14 +62,14 @@ Bien que le terme <strong>borderline</strong> soit entré dans le langage couran
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Egocentrique</strong> (soucieux du regard des autres) voire égoïste (bien que ce soit en réalité plutôt le contraire)</p>
+<p><strong>Egocentrique</strong> (soucieux du regard des autres) voire égoïste</p>
 </li>
 <li>
 <p><strong>Impatient</strong></p>
 </li>
 <li>
-<p>Ayant des <strong>réactions disproportionnées</strong> face aux "petites contrariétés" de la vie courante ou sur ce qui peut sembler relever du détail (parce qu&#8217;il est hypersensible !)<br>
-(ex : si l&#8217;on ne répond pas à la seconde à ses sollicitations / ses messages)</p>
+<p>Ayant des <strong>réactions disproportionnées</strong> face aux "petites contrariétés" de la vie, sur ce qui peut sembler relever du détail (car hypersensible)<br>
+(ex : si l&#8217;on ne répond pas immédiatement à ses sollicitations / ses messages)</p>
 </li>
 <li>
 <p><strong>Sautes d&#8217;humeur</strong>, crises que l&#8217;on ne voit pas venir, mais qui peuvent rapidement passer si l&#8217;on parvient à se comprendre</p>
@@ -96,12 +96,23 @@ Bien que le terme <strong>borderline</strong> soit entré dans le langage couran
 </ul>
 </div>
 <div class="paragraph">
-<p>Pour son psy :
-@@
-- Chaque malade est <strong>différent</strong>
-- Ne dit pas d&#8217;emblée ce qui ne va pas en début de scéance, il faut creuser pour trouver ce qui ne va pas
-- Chaque nouvelle scéance est un recommencement, les problèmes de la scéance précédente sont oubliés, <strong>rien n&#8217;est acquis</strong>
-- Il dit souvent "je pense, je sais" mais jamais "je ressens"</p>
+<p>Pour son psy :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Chaque malade est <strong>différent</strong></p>
+</li>
+<li>
+<p>Ne dit pas d&#8217;emblée ce qui ne va pas en début de scéance, il faut creuser pour trouver ce qui ne va pas</p>
+</li>
+<li>
+<p>Chaque nouvelle scéance est un recommencement, les problèmes de la scéance précédente sont oubliés, <strong>rien n&#8217;est acquis</strong></p>
+</li>
+<li>
+<p>Il dit souvent "je pense, je sais" mais jamais "je ressens"</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
