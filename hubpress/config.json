@@ -2,13 +2,15 @@
   "meta": {
     "username": "anwfr",
     "repositoryName": "blog.anw.fr",
-    "branch": "gh-pages"
+    "branch": "gh-pages",
+    "cname": "blog.anw.fr"
   },
   "site": {
     "title": "Blog",
     "description": "Public notes",
     "logo": "https://avatars3.githubusercontent.com/u/1021797?v=3&s=460",
-    "disqus": "anwfr"
+    "disqus": "anwfr",
+    "url": "http://blog.anw.fr"
   },
   "socialnetwork": {
     "email": "",
