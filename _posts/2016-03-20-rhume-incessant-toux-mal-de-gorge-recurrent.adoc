@@ -6,17 +6,14 @@
 Symptômes :
 
 - Rhume incessant tout au long de l'année, nez bouché suivi d'un mal de gorge
-- Episodes de toux violentes sur plusieurs semaines, plusieurs fois par an +
-Sensation de chatouille dans la gorge à l'expiration, au point de ne plus pouvoir parler sans tousser
-- Les tests d'allergie ne donnent rien
+- Episodes de toux violentes sur plusieurs semaines, plusieurs fois par an
+- Gorge qui gratte à l'expiration, au point de ne plus pouvoir parler sans tousser
+- Tests d'allergie négatifs
 
-== Explication possible
-Vous êtes peut-être victime de _Reflux Gastro-Oesophagien_ (_RGO_) qui touche 30 à 40% de la population. 
+
+Il s'agit peut-être victime de _Reflux Gastro-Oesophagien_ (_RGO_) qui touche 30 à 40% de la population. 
 Des gazs acides remontent dans l'oesophage et provoquent son irritation. +
-Les médecins peuvent longtemps passer à côté de ce diagnostic.
+Les médecins passent souvent à côté de ce diagnostic.
 
-== Solution
-En parler à votre médecin qui vous conseillera pour :
-
-- revoir votre alimentation
-- vous prescrire un traitement adapté (oméprazole, gaviscon...)
+- revoir son alimentation
+- en parler au médecin qui prescrira un traitement adapté (oméprazole, gaviscon...)
