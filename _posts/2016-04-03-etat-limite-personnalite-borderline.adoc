@@ -50,8 +50,6 @@ Pour son psy :
 
   
 Les facteurs suivants ne provoquent pas systématiquement de trouble de la personnalité limite, mais leur cumul et le jeune âge sont déterminants : +
-très grave < *6 ans* < grave < *15-16 ans* < moins grave <  *22 ans* < peu grave
-
 
 - Avant la naissance (transmission intra-utérine, mémoire cellulaire)
   * Déprime ou stress de la *mère*
@@ -60,15 +58,16 @@ très grave < *6 ans* < grave < *15-16 ans* < moins grave <  *22 ans* < peu grav
   * Naissance *prématurée* : arrachement du bébé à sa mère
 
 - Enfance / adolescence
-  * Enfant élevé à la dure : *manque de témoignage d'affection* de la part des parents
+  * Enfant élevé à la dure : *manque de témoignage d'affection* de l'entourage
   * *Parent absent*
-  * Parent ayant des problèmes personnels (addictions etc) : dans certains cas infantilisation du parent dont l'*enfant doit s'occuper*
+  * Infantilisation d'un parent ayant des problèmes personnels (addictions etc) dont l'*enfant doit s'occuper*
   * Tête de turc : maltraitance à l'école / au collège, *absence de soutient* des parents ("tu n'as qu'à te défendre")
   * *Dévalorisation* par les parents ("bon à rien", "si je meurs qu'est ce que tu vas devenir")
   * *Succession d'abus* : physiques, sexuels, psychologiques.
   
-La réaction de l'enfant face à ces évènements dépendra de son âge et de son tempérament.
-  
+La réaction de l'enfant face à ces évènements dépendra de son âge et de son tempérament. +
+très grave < *6 ans* < grave < *15-16 ans* < moins grave <  *22 ans* < peu grave
+
   
 
 
@@ -80,19 +79,17 @@ La maladie touche autant les femmes que les hommes, mais s'exprime différemment
 - *Les hommes* l'expriment plus souvent sur les autres : violences, cherchent les coups
 
 
-Un borderline n'est *jamais tranquille* / serein. Il se sent en permanence agressé/harcelé par son environnement de par son hypersensibilité. Il a une *faible estime de soi* (bien qu'il ne le laisse pas forcément paraître).
+Un borderline n'est *jamais tranquille*. Il se sent en permanence agressé/harcelé par son environnement de par son hypersensibilité. Il a une *faible estime de soi* (bien qu'il ne le laisse pas forcément paraître).
 
 Il y *réagit de manière disproportionnée*, inadaptée, maladroite. Il perçoit son entourage en noir et blanc (*clivage*), idéalisant ou dévalorisation de son entourage.
 
 Lorsqu'il est *submergé par ses émotions*, il peut entrer dans une profonde *colère* qui n'est autre que l'expression de sa *panique, douleur, souffrance*.
 
  
-Le borderline est l'*inverse du pervers narcissique* : il a énormément d'émotions qu'il ne sait pas gérer, contrairement au PN qui ne ressent rien.
+Le borderline est l'*inverse du pervers narcissique* : il a énormément d'émotions qu'il ne sait pas gérer, contrairement au PN qui ne ressent rien. L'entourage peut en souffrir de la même manière.
   
   
 Deux borderlines ne s'attirent généralement pas. Un enfant victime d'abus aura souvent tendance à "attirer" inconsciemment des personnes qui pourraient abuser de lui et lui faire revivre son traumatisme.
-
-
 
 
 Un borderline qui fait une tentative de suicide ne veut pas mourir, il veut mettre fin à sa souffrance qu'il ne peut plus supporter. Un suicide réussi est une tentative ratée allée trop loin.
@@ -104,12 +101,11 @@ Un borderline qui fait une tentative de suicide ne veut pas mourir, il veut mett
 
 == En guérir
 
-Cette maladie ne peut se soigner sans *psychothérapie spécifique* au trouble de l'état limite. Un thérapeuthe "à l'ancienne" qui l'écoute parler les bras croisés ne donnera aucun résultat. Le malade doit se sentir bien avec le thérapeute dès la 1è scéance : nécessité d'un *lien affectif* (certaines personnes auront même besoin d'un lien particulièrement solide pour oser se lâcher et s'exprimer). 
+Cette maladie ne peut se soigner sans *psychothérapie spécifique* au trouble de l'état limite. Un thérapeuthe "à l'ancienne" qui l'écoute parler les bras croisés ne donnera aucun résultat. Le malade doit se sentir bien avec le thérapeute dès la 1è scéance : nécessité d'un *lien affectif* (certaines personnes auront besoin d'un lien particulièrement solide pour oser se lâcher et s'exprimer). 
 
 Une thérapie adaptée permettra d'apprendre à gérer ses émotions au quotidien (ex : *thérapie des schémas de Young*). Le travail se concentre sur l'enfant intérieur du malade.
 
-A partir du moment où le malade se sent compris, cela va très vite et peut se guérir en un peu plus d'1 an.
-Pour les malades les plus difficiles il faut jusqu'à 2 ans.
+A partir du moment où le malade se sent compris, cela peut aller très vite et se guérir en 1 à 2 ans.
 
 Rythme décroissant :
 
@@ -122,7 +118,6 @@ Lectures conseillées :
 
 - "Je réinvente ma vie" - Jeffrey E. Young : pour le borderline
 - "Les borderlines" - Bernard Granger, Daria Karaklic : pour le borderline et son entourage
-
 
 == Contre-indications
 
