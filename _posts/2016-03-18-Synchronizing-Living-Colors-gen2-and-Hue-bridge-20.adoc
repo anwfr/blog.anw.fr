@@ -3,18 +3,18 @@
 
 == The problem
 
-Getting all this stuff working together:
+Getting all of this working together:
 
 * Living Colors (LC) and Living Bloom gen2 
 * Philips Hue white/color bulbs
 * Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors), controlling all lights
 * Philips bridge v2, controlling all lights
 
+There are almost no post on internet about it. Instructions for remote v1 doesn't work with remote v2.
 
 
 
 == Solution
-There are almost no post on internet about it, and instructions for remote v1 doesn't work with remote v2.
 
 . *Plug and turn everything on*
 
