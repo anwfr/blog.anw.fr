@@ -2,7 +2,7 @@
 :hp-tags: bitcoin,blockchain
 :hide-uri-scheme:
 
-Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain.
+Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain. 
 
 
 == Bitcoin en pratique
