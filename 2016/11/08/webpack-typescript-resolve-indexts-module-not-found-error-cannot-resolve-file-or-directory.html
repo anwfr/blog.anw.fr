@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1478618630079" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1478618699171" />
 
     <link rel="canonical" href="http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-indexts-module-not-found-error-cannot-resolve-file-or-directory.html" />
     <meta name="referrer" content="origin" />
@@ -144,8 +144,9 @@ null
     </header>
 
     <section class="post tag-webpack tag-typescript">
-      <div class="sect2">
-<h3 id="_problem">Problem</h3>
+      <div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>With the following file structure :</p>
 </div>
@@ -178,11 +179,13 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
 </div>
 </div>
 <div class="paragraph">
-<p>Webpack doesn&#8217;t automatically resolve paths to /index.ts</p>
+<p>Webpack doesn&#8217;t automatically resolve import paths to /index.ts</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_solution">Solution</h3>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Add this to your webpack.config.js :</p>
 </div>
@@ -193,6 +196,7 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
     extensions: ['', '.js', '.ts']
   }
 }</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -240,7 +244,7 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1478618630079"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1478618699171"></script>
     
 
 </body>
