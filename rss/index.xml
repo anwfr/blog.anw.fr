@@ -1,31 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Nov 2016 11:29:15 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Comment arrêter de ronfler]]></title><description><![CDATA[<div id="preamble">
-<div class="sectionbody">
-<div class="paragraph">
-<p>Comment ne pas ronfler après avoir tout essayé :</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Sirop ou spray anti-ronflement</p>
-</li>
-<li>
-<p>Bague ou bracelet anti-ronflement</p>
-</li>
-<li>
-<p>Pince-nez, dilatateur nasal etc</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_solution">Solution</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Se forcer à <strong>dormir sur le côté</strong>. C&#8217;est inconfortable mais cela fonctionne&#8230;&#8203;</p>
-</div>
-</div>
-</div>]]></description><link>http://blog.anw.fr/2016/03/20/Comment-arreter-de-ronfler.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/03/20/Comment-arreter-de-ronfler.html</guid><category><![CDATA[santé]]></category><category><![CDATA[ solution]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Sun, 20 Mar 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Bitcoin, comment ça marche ?]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Nov 2016 11:29:55 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Bitcoin, comment ça marche ?]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Cet article décrit le plus succintement possible le fonctionnement de Bitcoin et de la Blockchain.</p>
