@@ -1,4 +1,4 @@
-= Webpack + Typescript: unable to resolve index.ts (Module not found: Error: Cannot resolve 'file' or 'directory')
+= Webpack: unable to resolve index.ts (Module not found: Error: Cannot resolve 'file' or 'directory')
 :hp-tags: webpack, typescript
 :hp-alt-title: webpack typescript resolve index.ts module not found error cannot resolve file or directory
 
