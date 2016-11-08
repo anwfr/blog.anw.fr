@@ -3,7 +3,7 @@
 :hp-alt-title: webpack typescript resolve index.ts module not found error cannot resolve file or directory
 
 
-### Problem
+## Problem
 With the following file structure :
 
 ```
@@ -29,10 +29,10 @@ But the following instruction works:
 import foo from './store/index.ts'
 ```
 
-Webpack doesn't automatically resolve paths to /index.ts
+Webpack doesn't automatically resolve import paths to /index.ts
 
 
-### Solution
+## Solution
 Add this to your webpack.config.js :
 
 
