@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Nov 2016 15:23:50 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Webpack: unable to resolve index.ts (Module not found: Error: Cannot resolve 'file' or 'directory')]]></title><description><![CDATA[<div class="sect2">
-<h3 id="_problem">Problem</h3>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[Public notes]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Nov 2016 15:24:59 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Webpack: unable to resolve index.ts (Module not found: Error: Cannot resolve 'file' or 'directory')]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>With the following file structure :</p>
 </div>
@@ -32,11 +33,13 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
 </div>
 </div>
 <div class="paragraph">
-<p>Webpack doesn&#8217;t automatically resolve paths to /index.ts</p>
+<p>Webpack doesn&#8217;t automatically resolve import paths to /index.ts</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_solution">Solution</h3>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Add this to your webpack.config.js :</p>
 </div>
@@ -47,6 +50,7 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
     extensions: ['', '.js', '.ts']
   }
 }</code></pre>
+</div>
 </div>
 </div>
 </div>]]></description><link>http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-indexts-module-not-found-error-cannot-resolve-file-or-directory.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-indexts-module-not-found-error-cannot-resolve-file-or-directory.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Tue, 08 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Synchronizing Living Colors gen2 and Hue bridge 2.0]]></title><description><![CDATA[<div id="preamble">
