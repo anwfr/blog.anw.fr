@@ -18,7 +18,7 @@ const store = createStore(
 );
 ```
 
-The previous code will throw the following errors:
+The previous code throws errors:
 
 **ERROR in ./index.ts
 (5,8): error TS1192: Module '"/project/node_modules/@types/redux-promise/index"' has no default export.**
