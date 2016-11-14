@@ -30,8 +30,8 @@ The previous code will throw the following errors:
 
 ## Solution
 
-1) Make sure to have installed @types/redux-logger, @types/redux-thunk, @types/redux-promise
-2) Use redux-logger as below:
+1. Make sure to have installed @types/redux-logger, @types/redux-thunk, @types/redux-promise
+2. Use redux-logger as below:
 
 ```
 import { applyMiddleware, createStore } from 'redux';
