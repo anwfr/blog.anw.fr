@@ -1,6 +1,6 @@
-= Webpack: unable to use redux-logger (redux-logger/index has no default export)
+= Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)
 :hp-tags: webpack, typescript, redux
-:hp-alt-title: webpack typescript redux-logger index has no default export redux-thunk redux-promise
+:hp-alt-title: redux-logger index has no default export redux-thunk redux-promise webpack typescript
 
 
 ## Problem
