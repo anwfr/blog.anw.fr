@@ -1,0 +1,47 @@
+= Webpack + TypeScript: unable to use redux-logger (redux-logger/index has no default export)
+:hp-tags: webpack, typescript
+:hp-alt-title: webpack typescript resolve index module not found error cannot resolve file or directory
+
+
+## Problem
+redux-logger's usage documentation doesn't work with Webpack + TypeScript:
+```
+import { applyMiddleware, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import promise from 'redux-promise';
+import createLogger from 'redux-logger';
+
+const logger = createLogger();
+const store = createStore(
+  reducer,
+  applyMiddleware(thunk, promise, logger)
+);
+```
+
+The previous code will throw the following errors:
+
+**ERROR in ./index.ts
+(5,8): error TS1192: Module '"/project/node_modules/@types/redux-promise/index"' has no default export.**
+
+**ERROR in ./index.ts
+(6,8): error TS1192: Module '"/project/node_modules/@types/redux-logger/index"' has no default export.**
+
+
+
+## Solution
+
+1) Make sure to have installed @types/redux-logger, @types/redux-thunk, @types/redux-promise
+2) Use redux-logger as below:
+
+```
+import { applyMiddleware, createStore } from 'redux';
+import ReduxThunk from 'redux-thunk';
+import * as promiseMiddleware from 'redux-promise';
+import * as createLogger from 'redux-logger'
+
+const logger = createLogger();
+const store = createStore(
+  reducer,
+  applyMiddleware(ReduxThunk, promiseMiddleware, logger)
+);
+```
