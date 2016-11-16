@@ -1,6 +1,6 @@
 = Synchronizing Living Colors gen2 and Hue bridge 2.0
 :hp-tags: hardware, solution
-
+:published_at: 2016-03-18
 
 Getting the following lamps:
 
