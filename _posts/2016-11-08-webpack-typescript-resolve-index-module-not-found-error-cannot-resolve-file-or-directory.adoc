@@ -1,7 +1,7 @@
-= Unable to automatically resolve index.ts with webpack (Module not found: Error: Cannot resolve 'file' or 'directory')
+= index.ts not resolved with webpack (Module not found: Error: Cannot resolve 'file' or 'directory')
 :hp-tags: webpack, typescript
 :hp-alt-title: webpack typescript resolve index module not found error cannot resolve file or directory
-
+:published_at: 2016-11-08
 
 ## Problem
 With the following file structure :
