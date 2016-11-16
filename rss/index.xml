@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Worst of Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 16 Nov 2016 10:12:28 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Worst of Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 16 Nov 2016 10:14:20 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[index.ts not resolved with webpack (Module not found: Error: Cannot resolve 'file' or 'directory')]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With the following file structure :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>src/
+|- app.ts
+|- store/index.ts</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The following require instruction doesn&#8217;t work in app.ts:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>import foo from './store'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>ERROR in ./app.ts
+Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
+ @ ./src/app.ts 4:14-32</strong></p>
+</div>
+<div class="paragraph">
+<p>But the following instruction works:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>import foo from './store/index.ts'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Webpack doesn&#8217;t automatically resolve import paths to /index.ts</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Add this to your webpack.config.js :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>module.exports = {
+  resolve: {
+    extensions: ['', '.js', '.ts']
+  }
+}</code></pre>
+</div>
+</div>
+</div>
+</div>]]></description><link>http://blog.anw.fr/2016/11/14/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/14/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Mon, 14 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -59,62 +114,7 @@ const store = createStore(
 </div>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><category><![CDATA[ redux]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Mon, 14 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[index.ts not resolved with webpack (Module not found: Error: Cannot resolve 'file' or 'directory')]]></title><description><![CDATA[<div class="sect1">
-<h2 id="_problem">Problem</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>With the following file structure :</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code>src/
-|- app.ts
-|- store/index.ts</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>The following require instruction doesn&#8217;t work in app.ts:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code>import foo from './store'</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p><strong>ERROR in ./app.ts
-Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
- @ ./src/app.ts 4:14-32</strong></p>
-</div>
-<div class="paragraph">
-<p>But the following instruction works:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code>import foo from './store/index.ts'</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Webpack doesn&#8217;t automatically resolve import paths to /index.ts</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_solution">Solution</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Add this to your webpack.config.js :</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code>module.exports = {
-  resolve: {
-    extensions: ['', '.js', '.ts']
-  }
-}</code></pre>
-</div>
-</div>
-</div>
-</div>]]></description><link>http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Tue, 08 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Synchronizing Living Colors gen2 and Hue bridge 2.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><category><![CDATA[ redux]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Mon, 14 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Synchronizing Living Colors gen2 and Hue bridge 2.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Getting the following lamps:</p>
