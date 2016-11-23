@@ -7,7 +7,7 @@ Hosting & domains:
 
 - http://www.gandi.net
 - http://www.cyberbunker.com
-- www.orangewebsite.com/
+- http://www.orangewebsite.com
 
 Amazon gateway: https://purse.io/?_r=vmmgNt
 
