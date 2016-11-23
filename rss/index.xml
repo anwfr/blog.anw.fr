@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Worst of Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 23 Nov 2016 14:52:50 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
-<p>Hosting &amp; domains:
-- <a href="http://www.gandi.net" class="bare">http://www.gandi.net</a>
-- <a href="http://www.cyberbunker.com" class="bare">http://www.cyberbunker.com</a>
-- www.orangewebsite.com/</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Worst of Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 23 Nov 2016 14:53:02 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
+<p>Hosting &amp; domains:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.gandi.net" class="bare">http://www.gandi.net</a></p>
+</li>
+<li>
+<p><a href="http://www.cyberbunker.com" class="bare">http://www.cyberbunker.com</a></p>
+</li>
+<li>
+<p>www.orangewebsite.com/</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>Amazon gateway: <a href="https://purse.io/?_r=vmmgNt" class="bare">https://purse.io/?_r=vmmgNt</a></p>
