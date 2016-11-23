@@ -1,5 +1,5 @@
 = What to buy with bitcoin
-:hp-tags: bitcoin,websites
+:hp-tags: bitcoin,bookmarks
 :hp-alt-title: what buy accepting bitcoin
 :published_at: 2016-11-23
 
