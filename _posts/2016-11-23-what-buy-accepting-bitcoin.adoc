@@ -1,0 +1,9 @@
+= What to buy with bitcoin
+:hp-tags: bitcoin,websites
+:hp-alt-title: what buy accepting bitcoin
+:published_at: 2016-11-23
+
+- Registrar: http://www.gandi.net
+- Anonymous hosting: http://www.cyberbunker.com
+- Amazon gateway: https://purse.io/?_r=vmmgNt
+- VPN: https://www.privateinternetaccess.com/
