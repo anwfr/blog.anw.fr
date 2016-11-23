@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Worst of Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 23 Nov 2016 14:11:12 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="ulist">
-<ul>
-<li>
-<p>Registrar: <a href="http://www.gandi.net" class="bare">http://www.gandi.net</a></p>
-</li>
-<li>
-<p>Anonymous hosting: <a href="http://www.cyberbunker.com" class="bare">http://www.cyberbunker.com</a></p>
-</li>
-<li>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Worst of Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 23 Nov 2016 14:52:26 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
+<p>Hosting &amp; domains:
+- <a href="http://www.gandi.net" class="bare">http://www.gandi.net</a>
+- <a href="http://www.cyberbunker.com" class="bare">http://www.cyberbunker.com</a>
+- www.orangewebsite.com/</p>
+</div>
+<div class="paragraph">
 <p>Amazon gateway: <a href="https://purse.io/?_r=vmmgNt" class="bare">https://purse.io/?_r=vmmgNt</a></p>
-</li>
-<li>
+</div>
+<div class="paragraph">
 <p>VPN: <a href="https://www.privateinternetaccess.com/" class="bare">https://www.privateinternetaccess.com/</a></p>
-</li>
-</ul>
 </div>]]></description><link>http://blog.anw.fr/2016/11/23/what-buy-accepting-bitcoin.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/23/what-buy-accepting-bitcoin.html</guid><category><![CDATA[bitcoin]]></category><category><![CDATA[websites]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Wed, 23 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
