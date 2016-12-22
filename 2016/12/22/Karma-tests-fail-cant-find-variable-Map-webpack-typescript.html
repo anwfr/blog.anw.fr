@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1482423900383" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1482423956964" />
 
     <link rel="canonical" href="http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html" />
     <meta name="referrer" content="origin" />
@@ -33,7 +33,7 @@
     <meta property="og:site_name" content="Dev notes" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Karma tests failure: Can&#x27;t find variable: Map (Karma + PhantomJS + Webpack + Typescript)" />
-    <meta property="og:description" content="Problem Typescript tests fail when run with Karma with the following error: Can&amp;#8217;t find variable: Map Solution Load babel-polyfill in your tests context, by adding this to your karma.conf.js: ...         files: [             &#x27;node_modules/babel-polyfill/dist/polyfill.min.js&#x27;, // ES6 compatibility             &#x27;tests/**/*.ts&#x27;         ], order m" />
+    <meta property="og:description" content="Problem Karma tests fail with the following error: Can&amp;#8217;t find variable: Map Solution Load babel-polyfill in your tests context, by adding this to your karma.conf.js: ...         files: [             &#x27;node_modules/babel-polyfill/dist/polyfill.min.js&#x27;, // ES6 compatibility             &#x27;tests/**/*.ts&#x27;         ], order matters, make sure babel-p" />
     <meta property="og:url" content="http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html" />
     <meta property="article:tag" content="webpack" />
     <meta property="article:tag" content=" typescript" />
@@ -42,7 +42,7 @@
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Karma tests failure: Can&#x27;t find variable: Map (Karma + PhantomJS + Webpack + Typescript)" />
-    <meta name="twitter:description" content="Problem Typescript tests fail when run with Karma with the following error: Can&amp;#8217;t find variable: Map Solution Load babel-polyfill in your tests context, by adding this to your karma.conf.js: ...         files: [             &#x27;node_modules/babel-polyfill/dist/polyfill.min.js&#x27;, // ES6 compatibility             &#x27;tests/**/*.ts&#x27;         ], order m" />
+    <meta name="twitter:description" content="Problem Karma tests fail with the following error: Can&amp;#8217;t find variable: Map Solution Load babel-polyfill in your tests context, by adding this to your karma.conf.js: ...         files: [             &#x27;node_modules/babel-polyfill/dist/polyfill.min.js&#x27;, // ES6 compatibility             &#x27;tests/**/*.ts&#x27;         ], order matters, make sure babel-p" />
     <meta name="twitter:url" content="http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html" />
     
     <script type="application/ld+json">
@@ -157,8 +157,10 @@ null
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Typescript tests fail when run with Karma with the following error:
-<strong>Can&#8217;t find variable: Map</strong></p>
+<p>Karma tests fail with the following error:</p>
+</div>
+<div class="paragraph">
+<p><strong>Can&#8217;t find variable: Map</strong></p>
 </div>
 </div>
 </div>
@@ -235,7 +237,7 @@ order matters, make sure babel-polyfill is declared upper your typescript tests 
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1482423900383"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1482423956964"></script>
     
 
 </body>
