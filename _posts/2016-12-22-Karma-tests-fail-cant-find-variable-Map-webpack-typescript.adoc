@@ -4,7 +4,8 @@
 :published_at: 2016-12-22
 
 ## Problem
-Typescript tests fail when run with Karma with the following error:
+Karma tests fail with the following error:
+
 **Can't find variable: Map**
 
 
