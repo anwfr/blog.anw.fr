@@ -1,0 +1,22 @@
+= Karma tests failure: Can't find variable: Map (Karma + PhantomJS + Webpack + Typescript)
+:hp-tags: webpack, typescript, karma, phantomjs
+:hp-alt-title: Karma tests fail cant find variable Map webpack typescript
+:published_at: 2016-12-22
+
+## Problem
+Typescript tests fail when run with Karma with the following error:
+**Can't find variable: Map**
+
+
+
+## Solution
+Load babel-polyfill in your tests context, by adding this to your karma.conf.js:
+```
+...
+        files: [
+            'node_modules/babel-polyfill/dist/polyfill.min.js', // ES6 compatibility
+            'tests/**/*.ts'
+        ],
+```
+
+IMPORTANT: order matters, make sure babel-polyfill is declared upper your typescript tests in your karma configuration.
