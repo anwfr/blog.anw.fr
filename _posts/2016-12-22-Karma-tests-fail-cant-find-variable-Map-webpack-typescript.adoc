@@ -13,11 +13,9 @@ Karma tests fail with the following error:
 ## Solution
 Load babel-polyfill in your tests context, by adding this to your karma.conf.js:
 ```
-...
         files: [
             'node_modules/babel-polyfill/dist/polyfill.min.js', // ES6 compatibility
             'tests/**/*.ts'
         ],
 ```
-
-IMPORTANT: order matters, make sure babel-polyfill is declared upper your typescript tests in your karma configuration.
+Important: order matters, make sure to declare babel-polyfill the first one in karma's files configuration.
