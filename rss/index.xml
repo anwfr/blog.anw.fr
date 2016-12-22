@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Thu, 22 Dec 2016 16:16:11 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Thu, 22 Dec 2016 16:25:00 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Karma tests failure: Can't find variable: Map (Karma + PhantomJS + Webpack + Typescript)]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Typescript tests fail when run with Karma with the following error:
+<strong>Can&#8217;t find variable: Map</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Load babel-polyfill in your tests context, by adding this to your karma.conf.js:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>...
+        files: [
+            'node_modules/babel-polyfill/dist/polyfill.min.js', // ES6 compatibility
+            'tests/**/*.ts'
+        ],</code></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+order matters, make sure babel-polyfill is declared upper your typescript tests in your karma configuration.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>]]></description><link>http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><category><![CDATA[ karma]]></category><category><![CDATA[ phantomjs]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Thu, 22 Dec 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
 <p>Hosting &amp; domains:</p>
 </div>
 <div class="ulist">
