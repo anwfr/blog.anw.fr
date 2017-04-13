@@ -1,0 +1,18 @@
+= Reset a git fork when it's X commits ahead of upstream
+:hp-tags: git, reset, remote, upstream
+:hp-alt-title: reset git fork when commits ahead of upstream
+:published_at: 2017-04-13
+
+## Problem
+Forked repository is X commits ahead upstream, everything is f*cked up. You want to reset it from upstream.
+
+
+## Solution
+Example with master. Repeat for every branch to reset.
+```
+git remote add upstream https://....
+git fetch upstream
+git checkout master
+git reset --hard upstream/master  
+git push origin master --force 
+```
