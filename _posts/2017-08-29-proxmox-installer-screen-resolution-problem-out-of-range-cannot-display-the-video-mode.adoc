@@ -1,6 +1,6 @@
-= Proxmox installer resolution problem (out of range / cannot display the video mode)
+= Proxmox installer screen resolution problem (out of range / cannot display the video mode)
 :hp-tags: proxmox
-:hp-alt-title: proxmox installer resolution problem out of range cannot display the video mode
+:hp-alt-title: proxmox installer screen resolution problem out of range cannot display the video mode
 :published_at: 2017-08-29
 
 ## Problem
