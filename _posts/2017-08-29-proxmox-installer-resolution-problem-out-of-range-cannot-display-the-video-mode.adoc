@@ -1,0 +1,11 @@
+= Proxmox installer resolution problem (out of range / cannot display the video mode)
+:hp-tags: proxmox
+:hp-alt-title: proxmox installer resolution problem out of range cannot display the video mode
+:published_at: 2017-08-29
+
+## Problem
+When booting on Proxmox installer on old VGA screen limited to 1280x1024, the screen turns off when grub starts. The monitor displays the following error:
+Out of range / Cannot display the video mode
+
+## Solution
+Just hit Enter to start installation process.
