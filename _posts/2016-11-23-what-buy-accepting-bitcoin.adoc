@@ -9,6 +9,6 @@ Hosting & domains:
 - http://www.cyberbunker.com
 - http://www.orangewebsite.com
 
-Amazon gateway: https://purse.io/?_r=vmmgNt
+Amazon: https://purse.io/?_r=vmmgNt
 
 VPN: https://www.privateinternetaccess.com/
