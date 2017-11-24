@@ -20,5 +20,21 @@
   },
   "theme": {
     "name": "uno"
+  },
+  "urls": {
+    "site": "http://blog.anw.fr",
+    "hubpress": "http://blog.anw.fr",
+    "theme": "//blog.anw.fr/themes/uno",
+    "images": "http://blog.anw.fr/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
   }
 }
