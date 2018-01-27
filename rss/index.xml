@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 10:06:14 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 10:09:20 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -40,11 +40,14 @@ export { store, history };</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Root reducer:</p>
+<p>Reducer configuration:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-javascript" data-lang="javascript">const rootReducer = combineReducers({
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import { combineReducers } from 'redux'
+import { routerReducer } from 'react-router-redux'
+
+const rootReducer = combineReducers({
   // ...add custom reducers here
   routing: routerReducer // IMPORTANT: naming "routing"
 })
