@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 10:02:06 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 10:04:47 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -20,14 +20,18 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>history &amp; router configuration:</p>
+<p>history &amp; reducer &amp; router configuration:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-javascript" data-lang="javascript">import {applyMiddleware, createStore} from 'redux';
-import {routerMiddleware, syncHistoryWithStore} from 'react-router-redux';
-import rootReducer from '../reducers';
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import {applyMiddleware, createStore, combineReducers} from 'redux';
+import {routerMiddleware, syncHistoryWithStore, routerReducer} from 'react-router-redux';
 import {createHashHistory} from 'history';
+
+const rootReducer = combineReducers({
+  //custom reducers here ...
+  routing: routerReducer // IMPORTANT: naming "routing"
+})
 
 let hashHistory = createHashHistory()
 const router = routerMiddleware(hashHistory);
@@ -36,6 +40,7 @@ const store = createStore(rootReducer, initialState, enhancer);
 
 // Create an enhanced history that syncs navigation events with the store
 const history = syncHistoryWithStore(hashHistory, store)
+
 export { store, history };</code></pre>
 </div>
 </div>

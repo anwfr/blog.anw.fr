@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1517047326719" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1517047487595" />
 
     <link rel="canonical" href="http://blog.anw.fr/2018/01/27/react-router-4-hash-History-link-not-rendering-view-rendered-after-refresh.html" />
     <meta name="referrer" content="origin" />
@@ -192,14 +192,18 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>history &amp; router configuration:</p>
+<p>history &amp; reducer &amp; router configuration:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-javascript" data-lang="javascript">import {applyMiddleware, createStore} from 'redux';
-import {routerMiddleware, syncHistoryWithStore} from 'react-router-redux';
-import rootReducer from '../reducers';
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import {applyMiddleware, createStore, combineReducers} from 'redux';
+import {routerMiddleware, syncHistoryWithStore, routerReducer} from 'react-router-redux';
 import {createHashHistory} from 'history';
+
+const rootReducer = combineReducers({
+  //custom reducers here ...
+  routing: routerReducer // IMPORTANT: naming "routing"
+})
 
 let hashHistory = createHashHistory()
 const router = routerMiddleware(hashHistory);
@@ -208,6 +212,7 @@ const store = createStore(rootReducer, initialState, enhancer);
 
 // Create an enhanced history that syncs navigation events with the store
 const history = syncHistoryWithStore(hashHistory, store)
+
 export { store, history };</code></pre>
 </div>
 </div>
@@ -320,7 +325,7 @@ export default MyComponent</code></pre>
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1517047326719"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1517047487595"></script>
     
 
 </body>
