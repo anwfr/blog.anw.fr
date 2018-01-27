@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1511540849579" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1517046990294" />
 
     <link rel="canonical" href="http://blog.anw.fr/" />
     <meta name="referrer" content="origin" />
@@ -39,11 +39,19 @@
     <meta name="twitter:url" content="http://blog.anw.fr/" />
     
     <script type="application/ld+json">
-null
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Dev notes",
+    "url": "http://blog.anw.fr/"
+}
     </script>
 
     <meta name="generator" content="HubPress" />
     <link rel="alternate" type="application/rss+xml" title="Dev notes" href="http://blog.anw.fr/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
 </head>
 <body class="home-template no-js">
@@ -138,6 +146,12 @@ null
 
     <ol class="post-list">
       <li>
+        <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2018/01/27/react-router-4-hash-History-link-not-rendering-view-rendered-after-refresh.html" title="link to react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)">react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)</a></h2>
+        <p class="excerpt">Problem With react-router 4 and hashHistory, clicking on a &lt;Link&gt; updates URL and state but view is not rendered. After browser refresh, view is correctly rendered. Solution Make sure to use &lt;HashRouter&gt; (from react-router-dom) instead of &lt;Router&gt; If &lt;Link&gt; is not direct&hellip;</p>
+        <div class="post-list__meta"><time datetime="27 Jan 2018" class="post-list__meta--date date">27 Jan 2018</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/react/">react</a></span></div>
+        <hr class="post-list__divider" />
+      </li>
+      <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2017/08/29/proxmox-installer-screen-resolution-problem-out-of-range-cannot-display-the-video-mode.html" title="link to Proxmox installer screen resolution problem (out of range / cannot display the video mode)">Proxmox installer screen resolution problem (out of range / cannot display the video mode)</a></h2>
         <p class="excerpt">Problem When booting on Proxmox installer on old VGA screen limited to 1280x1024, the screen turns off when grub starts. The monitor displays the following error: Out of range / Cannot display the video mode Solution Just hit Enter to start installation process.&hellip;</p>
         <div class="post-list__meta"><time datetime="29 Aug 2017" class="post-list__meta--date date">29 Aug 2017</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/proxmox/">proxmox</a></span></div>
@@ -191,14 +205,14 @@ null
   </div>
 
             <footer class="footer">
-                <span class="footer__copyright">&copy; 2017. All rights reserved.</span>
+                <span class="footer__copyright">&copy; 2018. All rights reserved.</span>
                 <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
                 <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
             </footer>
         </div>
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
           // change date with ago
@@ -211,7 +225,7 @@ null
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1511540849579"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1517046990294"></script>
     
 
 </body>
