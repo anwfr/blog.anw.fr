@@ -11,12 +11,16 @@ With react-router 4 and hashHistory, clicking on a <Link> updates URL and state 
  * If <Link> is not direct child of HashRouter, connect the component with withRouter() (see https://reacttraining.com/react-router/web/guides/dealing-with-update-blocking)
  
  
-history & router configuration:
+history & reducer & router configuration:
 ```javascript
-import {applyMiddleware, createStore} from 'redux';
-import {routerMiddleware, syncHistoryWithStore} from 'react-router-redux';
-import rootReducer from '../reducers';
+import {applyMiddleware, createStore, combineReducers} from 'redux';
+import {routerMiddleware, syncHistoryWithStore, routerReducer} from 'react-router-redux';
 import {createHashHistory} from 'history';
+
+const rootReducer = combineReducers({
+  //custom reducers here ...
+  routing: routerReducer // IMPORTANT: naming "routing"
+})
 
 let hashHistory = createHashHistory()
 const router = routerMiddleware(hashHistory);
@@ -25,6 +29,7 @@ const store = createStore(rootReducer, initialState, enhancer);
 
 // Create an enhanced history that syncs navigation events with the store
 const history = syncHistoryWithStore(hashHistory, store)
+
 export { store, history };
 ```
 
