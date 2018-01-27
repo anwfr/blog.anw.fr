@@ -1,0 +1,87 @@
+= react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)
+:hp-tags: react
+:hp-alt-title: react-router 4 hashHistory link not rendering view rendered after refresh
+:published_at: 2018-01-27
+
+## Problem
+With react-router 4 and hashHistory, clicking on a <Link> updates URL and state but view is not rendered. After browser refresh, view is correctly rendered.
+
+## Solution
+ * Make sure to use <HashRouter> (from react-router-dom) instead of <Router>
+ * If <Link> is not direct child of HashRouter, connect the component with withRouter() (see https://reacttraining.com/react-router/web/guides/dealing-with-update-blocking)
+ 
+ 
+history & router configuration:
+```javascript
+import {applyMiddleware, createStore} from 'redux';
+import {routerMiddleware, syncHistoryWithStore} from 'react-router-redux';
+import rootReducer from '../reducers';
+import {createHashHistory} from 'history';
+
+let hashHistory = createHashHistory()
+const router = routerMiddleware(hashHistory);
+const enhancer = applyMiddleware(router);
+const store = createStore(rootReducer, initialState, enhancer);
+
+// Create an enhanced history that syncs navigation events with the store
+const history = syncHistoryWithStore(hashHistory, store)
+export { store, history };
+```
+
+Root component:
+```javascript
+import React from 'react'
+import {Provider} from 'react-redux'
+import {HashRouter, withRouter} from 'react-router-dom'
+import Routes from './routes'
+import {store} from './store/configureStore'
+
+const App = (props) => {
+  var RoutesSync = withRouter(Routes) // IMPORTANT: use withRouter()
+  return (
+    <Provider store={store}>
+      <HashRouter> // IMPORTANT: use HashRouter
+        <RoutesSync />
+      </HashRouter>
+    </Provider>
+  )
+}
+export default App
+```
+ 
+Sub component:
+```javascript
+import React from 'react';
+import {Route, Switch} from 'react-router';
+import {connect} from "react-redux";
+
+const Routes = (props) => {
+    return (
+        <Switch>
+            <Route path='/foo' component={foo} />
+            ... all routes here ...
+        </Switch>
+    )
+}
+export default Routes
+
+```
+ 
+Linking component:
+```javascript
+import React from 'react'
+import {Link} from 'react-router-dom'
+
+const MyComponent = (props) => {
+    return (
+    <div>
+        <Link to='/foo'>Foo</Link>
+    </div>
+    )
+}
+
+export default Dashboard
+```
+ 
+ 
+ 
