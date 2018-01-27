@@ -28,8 +28,11 @@ const history = syncHistoryWithStore(hashHistory, store)
 export { store, history };
 ```
 
-Root reducer:
+Reducer configuration:
 ```javascript
+import { combineReducers } from 'redux'
+import { routerReducer } from 'react-router-redux'
+
 const rootReducer = combineReducers({
   // ...add custom reducers here
   routing: routerReducer // IMPORTANT: naming "routing"
