@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 09:57:17 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Proxmox installer screen resolution problem (out of range / cannot display the video mode)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 09:57:26 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>With react-router 4 and hashHistory, clicking on a &lt;Link&gt; updates URL and state but view is not rendered. After browser refresh, view is correctly rendered.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Make sure to use &lt;HashRouter&gt; (from react-router-dom) instead of &lt;Router&gt;</p>
+</li>
+<li>
+<p>If &lt;Link&gt; is not direct child of HashRouter, connect the component with withRouter() (see <a href="https://reacttraining.com/react-router/web/guides/dealing-with-update-blocking" class="bare">https://reacttraining.com/react-router/web/guides/dealing-with-update-blocking</a>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>history &amp; router configuration:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import {applyMiddleware, createStore} from 'redux';
+import {routerMiddleware, syncHistoryWithStore} from 'react-router-redux';
+import rootReducer from '../reducers';
+import {createHashHistory} from 'history';
+
+let hashHistory = createHashHistory()
+const router = routerMiddleware(hashHistory);
+const enhancer = applyMiddleware(router);
+const store = createStore(rootReducer, initialState, enhancer);
+
+// Create an enhanced history that syncs navigation events with the store
+const history = syncHistoryWithStore(hashHistory, store)
+export { store, history };</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Root component:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react'
+import {Provider} from 'react-redux'
+import {HashRouter, withRouter} from 'react-router-dom'
+import Routes from './routes'
+import {store} from './store/configureStore'
+
+const App = (props) =&gt; {
+  var RoutesSync = withRouter(Routes) // IMPORTANT: use withRouter()
+  return (
+    &lt;Provider store={store}&gt;
+      &lt;HashRouter&gt; // IMPORTANT: use HashRouter
+        &lt;RoutesSync /&gt;
+      &lt;/HashRouter&gt;
+    &lt;/Provider&gt;
+  )
+}
+export default App</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Sub component:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react';
+import {Route, Switch} from 'react-router';
+import {connect} from "react-redux";
+
+const Routes = (props) =&gt; {
+    return (
+        &lt;Switch&gt;
+            &lt;Route path='/foo' component={foo} /&gt;
+            ... all routes here ...
+        &lt;/Switch&gt;
+    )
+}
+export default Routes</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Linking component:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-javascript" data-lang="javascript">import React from 'react'
+import {Link} from 'react-router-dom'
+
+const MyComponent = (props) =&gt; {
+    return (
+    &lt;div&gt;
+        &lt;Link to='/foo'&gt;Foo&lt;/Link&gt;
+    &lt;/div&gt;
+    )
+}
+
+export default Dashboard</code></pre>
+</div>
+</div>
+</div>
+</div>]]></description><link>http://blog.anw.fr/2018/01/27/react-router-4-hash-History-link-not-rendering-view-rendered-after-refresh.html</link><guid isPermaLink="true">http://blog.anw.fr/2018/01/27/react-router-4-hash-History-link-not-rendering-view-rendered-after-refresh.html</guid><category><![CDATA[react]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Sat, 27 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Proxmox installer screen resolution problem (out of range / cannot display the video mode)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
