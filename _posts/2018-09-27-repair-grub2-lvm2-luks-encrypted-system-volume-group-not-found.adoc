@@ -1,6 +1,6 @@
-= Repair grub2 + lvm2 + luks encrypted system (out of range / cannot display the video mode)
+= Repair grub2 + lvm2 + luks encrypted system (Volume group "ubuntu-vg-root" not found)
 :hp-tags: linux system
-:hp-alt-title: repair grub2 lvm2 luks encrypted system
+:hp-alt-title: repair grub2 lvm2 luks encrypted system volume group not found
 :published_at: 2018-09-27
 
 ## Problem
