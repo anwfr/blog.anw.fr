@@ -10,7 +10,9 @@ Volume group "ubuntu-vg-root" not found
 ## Solution
 - boot livecd
 - make sure /etc/crypttab is valid. ie:
+```
 sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks
+```
 
 - open encrypted system, refresh lvm, chroot
 ```
@@ -24,10 +26,16 @@ chroot /mnt
 ```
 
 - make sure lvm2 is installed:
+```
 apt install lvm2
+```
 
 - regenerate initramfs:
+```
 update-initramfs -c -k all
+```
 
 - reinstall grub just to be sure:
+```
 grub-install /dev/sda
+```
