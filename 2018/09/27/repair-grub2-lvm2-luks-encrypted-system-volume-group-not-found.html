@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1538005096161" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1538005134936" />
 
     <link rel="canonical" href="http://blog.anw.fr/2018/09/27/repair-grub2-lvm2-luks-encrypted-system-volume-group-not-found.html" />
     <meta name="referrer" content="origin" />
@@ -188,9 +188,17 @@ Volume group "ubuntu-vg-root" not found</p>
 <p>boot livecd</p>
 </li>
 <li>
-<p>make sure /etc/crypttab is valid. ie:
-sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks</p>
+<p>make sure /etc/crypttab is valid. ie:</p>
 </li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>open encrypted system, refresh lvm, chroot</p>
 </li>
@@ -210,18 +218,38 @@ chroot /mnt</code></pre>
 <div class="ulist">
 <ul>
 <li>
-<p>make sure lvm2 is installed:
-apt install lvm2</p>
-</li>
-<li>
-<p>regenerate initramfs:
-update-initramfs -c -k all</p>
-</li>
-<li>
-<p>reinstall grub just to be sure:
-grub-install /dev/sda</p>
+<p>make sure lvm2 is installed:</p>
 </li>
 </ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>apt install lvm2</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>regenerate initramfs:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>update-initramfs -c -k all</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>reinstall grub just to be sure:</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>grub-install /dev/sda</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -269,7 +297,7 @@ grub-install /dev/sda</p>
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1538005096161"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1538005134936"></script>
     
 
 </body>
