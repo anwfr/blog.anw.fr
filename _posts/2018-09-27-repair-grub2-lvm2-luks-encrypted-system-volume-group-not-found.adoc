@@ -13,6 +13,7 @@ Volume group "ubuntu-vg-root" not found
 sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks
 
 - open encrypted system, refresh lvm, chroot
+```
 cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
 vgchange -ay
 mount /dev/mapper/ubuntu--vg-root /mnt
@@ -20,6 +21,7 @@ mount /dev/sda1 /mnt/boot
 mount -t proc /proc /mnt/proc
 mount --bind /dev /mnt/dev
 chroot /mnt
+```
 
 - make sure lvm2 is installed:
 apt install lvm2
