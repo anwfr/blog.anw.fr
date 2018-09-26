@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Sep 2018 23:36:38 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Repair grub2 + lvm2 + luks encrypted system (Volume group "ubuntu-vg-root" not found)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Sep 2018 23:38:16 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Repair grub2 + lvm2 + luks encrypted system (Volume group "ubuntu-vg-root" not found)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -20,15 +20,23 @@ Volume group "ubuntu-vg-root" not found</p>
 sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks</p>
 </li>
 <li>
-<p>open encrypted system, refresh lvm, chroot
-cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
+<p>open encrypted system, refresh lvm, chroot</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
 vgchange -ay
-mount /dev/mapper/ubuntu&#8212;&#8203;vg-root /mnt
+mount /dev/mapper/ubuntu--vg-root /mnt
 mount /dev/sda1 /mnt/boot
 mount -t proc /proc /mnt/proc
 mount --bind /dev /mnt/dev
-chroot /mnt</p>
-</li>
+chroot /mnt</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>make sure lvm2 is installed:
 apt install lvm2</p>

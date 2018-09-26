@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1538004998755" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1538005096161" />
 
     <link rel="canonical" href="http://blog.anw.fr/2018/09/27/repair-grub2-lvm2-luks-encrypted-system-volume-group-not-found.html" />
     <meta name="referrer" content="origin" />
@@ -192,15 +192,23 @@ Volume group "ubuntu-vg-root" not found</p>
 sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks</p>
 </li>
 <li>
-<p>open encrypted system, refresh lvm, chroot
-cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
+<p>open encrypted system, refresh lvm, chroot</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
 vgchange -ay
-mount /dev/mapper/ubuntu&#8212;&#8203;vg-root /mnt
+mount /dev/mapper/ubuntu--vg-root /mnt
 mount /dev/sda1 /mnt/boot
 mount -t proc /proc /mnt/proc
 mount --bind /dev /mnt/dev
-chroot /mnt</p>
-</li>
+chroot /mnt</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>make sure lvm2 is installed:
 apt install lvm2</p>
@@ -261,7 +269,7 @@ grub-install /dev/sda</p>
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1538004998755"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1538005096161"></script>
     
 
 </body>
