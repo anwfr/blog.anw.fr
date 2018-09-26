@@ -1,0 +1,31 @@
+= Repair grub2 + lvm2 + luks encrypted system (out of range / cannot display the video mode)
+:hp-tags: linux system
+:hp-alt-title: repair grub2 lvm2 luks encrypted system
+:published_at: 2018-09-27
+
+## Problem
+After reinstalling fresh ubuntu over existing encrypted system, grub won't boot with message:
+Volume group "ubuntu-vg-root" not found
+
+## Solution
+- boot livecd
+- make sure /etc/crypttab is valid. ie:
+sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks
+
+- open encrypted system, refresh lvm, chroot
+cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
+vgchange -ay
+mount /dev/mapper/ubuntu--vg-root /mnt
+mount /dev/sda1 /mnt/boot
+mount -t proc /proc /mnt/proc
+mount --bind /dev /mnt/dev
+chroot /mnt
+
+- make sure lvm2 is installed:
+apt install lvm2
+
+- regenerate initramfs:
+update-initramfs -c -k all
+
+- reinstall grub just to be sure:
+grub-install /dev/sda
