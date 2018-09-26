@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 10:09:20 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Sep 2018 23:34:46 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Repair grub2 + lvm2 + luks encrypted system (out of range / cannot display the video mode)]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After reinstalling fresh ubuntu over existing encrypted system, grub won&#8217;t boot with message:
+Volume group "ubuntu-vg-root" not found</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>boot livecd</p>
+</li>
+<li>
+<p>make sure /etc/crypttab is valid. ie:
+sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks</p>
+</li>
+<li>
+<p>open encrypted system, refresh lvm, chroot
+cryptsetup luksOpen /dev/sda5 sda5_crypt (important: use same name as crypttab)
+vgchange -ay
+mount /dev/mapper/ubuntu&#8212;&#8203;vg-root /mnt
+mount /dev/sda1 /mnt/boot
+mount -t proc /proc /mnt/proc
+mount --bind /dev /mnt/dev
+chroot /mnt</p>
+</li>
+<li>
+<p>make sure lvm2 is installed:
+apt install lvm2</p>
+</li>
+<li>
+<p>regenerate initramfs:
+update-initramfs -c -k all</p>
+</li>
+<li>
+<p>reinstall grub just to be sure:
+grub-install /dev/sda</p>
+</li>
+</ul>
+</div>
+</div>
+</div>]]></description><link>http://blog.anw.fr/2018/09/27/repair-grub2-lvm2-luks-encrypted-system.html</link><guid isPermaLink="true">http://blog.anw.fr/2018/09/27/repair-grub2-lvm2-luks-encrypted-system.html</guid><category><![CDATA[linux system]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Thu, 27 Sep 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[react-router 4 + hashHistory not working (link not rendering view, view rendered after refresh)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
