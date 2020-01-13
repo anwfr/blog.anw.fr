@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Wed, 26 Sep 2018 23:39:20 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Repair grub2 + lvm2 + luks encrypted system (Volume group "ubuntu-vg-root" not found)]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Dev notes]]></title><description><![CDATA[Angular2, TypeScript, Webpack...]]></description><link>http://blog.anw.fr</link><generator>RSS for Node</generator><lastBuildDate>Mon, 13 Jan 2020 18:21:16 GMT</lastBuildDate><atom:link href="http://blog.anw.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[No wifi network found on MacOS Catalina]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_problem">Problem</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>MacOS is suddently unable to detect any wifi network. Wifi network list is empty.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_solution">Solution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Remove last wifi network saved in wifi settings/advanced.
+Wifi networks will be detected again immediately.</p>
+</div>
+</div>
+</div>]]></description><link>http://blog.anw.fr/2020/01/13/no-wifi-network-found-macos-catalina.html</link><guid isPermaLink="true">http://blog.anw.fr/2020/01/13/no-wifi-network-found-macos-catalina.html</guid><category><![CDATA[mac]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Mon, 13 Jan 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Repair grub2 + lvm2 + luks encrypted system (Volume group "ubuntu-vg-root" not found)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -240,7 +256,7 @@ git push origin master --force</code></pre>
 </div>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html</link><guid isPermaLink="true">http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html</guid><category><![CDATA[git]]></category><category><![CDATA[ reset]]></category><category><![CDATA[ remote]]></category><category><![CDATA[ upstream]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Thu, 13 Apr 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Karma tests failure: Can't find variable: Map (Karma + PhantomJS + Webpack + Typescript)]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html</link><guid isPermaLink="true">http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html</guid><category><![CDATA[git]]></category><category><![CDATA[reset]]></category><category><![CDATA[remote]]></category><category><![CDATA[upstream]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Thu, 13 Apr 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Karma tests failure: Can't find variable: Map (Karma + PhantomJS + Webpack + Typescript)]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -269,7 +285,7 @@ git push origin master --force</code></pre>
 <p>Important: order matters, make sure to declare babel-polyfill the first one in karma&#8217;s files configuration.</p>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><category><![CDATA[ karma]]></category><category><![CDATA[ phantomjs]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Thu, 22 Dec 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
+</div>]]></description><link>http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[typescript]]></category><category><![CDATA[karma]]></category><category><![CDATA[phantomjs]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Thu, 22 Dec 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[What to buy with bitcoin]]></title><description><![CDATA[<div class="paragraph">
 <p>Hosting &amp; domains:</p>
 </div>
 <div class="ulist">
@@ -351,7 +367,7 @@ const store = createStore(
 </div>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><category><![CDATA[ redux]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Mon, 14 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[index.ts not resolved with webpack (Module not found: Error: Cannot resolve 'file' or 'directory')]]></title><description><![CDATA[<div class="sect1">
+</div>]]></description><link>http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[typescript]]></category><category><![CDATA[redux]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Mon, 14 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[index.ts not resolved with webpack (Module not found: Error: Cannot resolve 'file' or 'directory')]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_problem">Problem</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -406,7 +422,7 @@ Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src
 </div>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[ typescript]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Tue, 08 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Synchronizing Living Colors gen2 and Hue bridge 2.0]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html</guid><category><![CDATA[webpack]]></category><category><![CDATA[typescript]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Tue, 08 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Synchronizing Living Colors gen2 and Hue bridge 2.0]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Getting the following lamps:</p>
@@ -497,4 +513,4 @@ hold the new remote close to the already configured one and hold the "I" (on) of
 </dl>
 </div>
 </div>
-</div>]]></description><link>http://blog.anw.fr/2016/03/18/Synchronizing-Living-Colors-gen2-and-Hue-bridge-20.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/03/18/Synchronizing-Living-Colors-gen2-and-Hue-bridge-20.html</guid><category><![CDATA[hardware]]></category><category><![CDATA[ solution]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Fri, 18 Mar 2016 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>http://blog.anw.fr/2016/03/18/Synchronizing-Living-Colors-gen2-and-Hue-bridge-20.html</link><guid isPermaLink="true">http://blog.anw.fr/2016/03/18/Synchronizing-Living-Colors-gen2-and-Hue-bridge-20.html</guid><category><![CDATA[hardware]]></category><category><![CDATA[solution]]></category><dc:creator><![CDATA[Antoine Walter]]></dc:creator><pubDate>Fri, 18 Mar 2016 00:00:00 GMT</pubDate></item></channel></rss>

@@ -25,7 +25,7 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1538005160412" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1578939676550" />
 
     <link rel="canonical" href="http://blog.anw.fr/" />
     <meta name="referrer" content="origin" />
@@ -146,6 +146,12 @@
 
     <ol class="post-list">
       <li>
+        <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2020/01/13/no-wifi-network-found-macos-catalina.html" title="link to No wifi network found on MacOS Catalina">No wifi network found on MacOS Catalina</a></h2>
+        <p class="excerpt">Problem MacOS is suddently unable to detect any wifi network. Wifi network list is empty. Solution Remove last wifi network saved in wifi settings/advanced. Wifi networks will be detected again immediately.&hellip;</p>
+        <div class="post-list__meta"><time datetime="13 Jan 2020" class="post-list__meta--date date">13 Jan 2020</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/mac/">mac</a></span></div>
+        <hr class="post-list__divider" />
+      </li>
+      <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2018/09/27/repair-grub2-lvm2-luks-encrypted-system-volume-group-not-found.html" title="link to Repair grub2 + lvm2 + luks encrypted system (Volume group &quot;ubuntu-vg-root&quot; not found)">Repair grub2 + lvm2 + luks encrypted system (Volume group &quot;ubuntu-vg-root&quot; not found)</a></h2>
         <p class="excerpt">Problem After reinstalling fresh ubuntu over existing encrypted system, grub won&#8217;t boot with message: Volume group "ubuntu-vg-root" not found Solution boot livecd make sure /etc/crypttab is valid. ie: sda5_crypt UUID=f1218164-b709-4141-982e-ff1212faaef5 none luks open encrypted system, refresh lvm, chroot cryptsetup luksOpen /dev/sda5 sda5_c&hellip;</p>
         <div class="post-list__meta"><time datetime="27 Sep 2018" class="post-list__meta--date date">27 Sep 2018</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/linux-system/">linux system</a></span></div>
@@ -166,13 +172,13 @@
       <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html" title="link to Reset a git fork when it&#x27;s X commits ahead of upstream">Reset a git fork when it&#x27;s X commits ahead of upstream</a></h2>
         <p class="excerpt">Problem Forked repository is X commits ahead upstream, everything is f*cked up. You want to reset it from upstream. Solution Example with master. Repeat for every branch to reset. git remote add upstream https://.... git fetch upstream git checkout master git reset --hard upstream/master git push origin master&hellip;</p>
-        <div class="post-list__meta"><time datetime="13 Apr 2017" class="post-list__meta--date date">13 Apr 2017</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/git/">git</a>, <a href="http://blog.anw.fr/tag/reset/"> reset</a>, <a href="http://blog.anw.fr/tag/remote/"> remote</a>, <a href="http://blog.anw.fr/tag/upstream/"> upstream</a></span></div>
+        <div class="post-list__meta"><time datetime="13 Apr 2017" class="post-list__meta--date date">13 Apr 2017</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/git/">git</a>, <a href="http://blog.anw.fr/tag/reset/">reset</a>, <a href="http://blog.anw.fr/tag/remote/">remote</a>, <a href="http://blog.anw.fr/tag/upstream/">upstream</a></span></div>
         <hr class="post-list__divider" />
       </li>
       <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2016/12/22/Karma-tests-fail-cant-find-variable-Map-webpack-typescript.html" title="link to Karma tests failure: Can&#x27;t find variable: Map (Karma + PhantomJS + Webpack + Typescript)">Karma tests failure: Can&#x27;t find variable: Map (Karma + PhantomJS + Webpack + Typescript)</a></h2>
         <p class="excerpt">Problem Karma tests fail with the following error: Can&#8217;t find variable: Map Solution Load babel-polyfill in your tests context, by adding this to your karma.conf.js:         files: [             'node_modules/babel-polyfill/dist/polyfill.min.js', // ES6 compatibility             'tests/**/*.ts'         ], Important: order matters, make sure&hellip;</p>
-        <div class="post-list__meta"><time datetime="22 Dec 2016" class="post-list__meta--date date">22 Dec 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/"> typescript</a>, <a href="http://blog.anw.fr/tag/karma/"> karma</a>, <a href="http://blog.anw.fr/tag/phantomjs/"> phantomjs</a></span></div>
+        <div class="post-list__meta"><time datetime="22 Dec 2016" class="post-list__meta--date date">22 Dec 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/">typescript</a>, <a href="http://blog.anw.fr/tag/karma/">karma</a>, <a href="http://blog.anw.fr/tag/phantomjs/">phantomjs</a></span></div>
         <hr class="post-list__divider" />
       </li>
       <li>
@@ -184,19 +190,19 @@
       <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html" title="link to Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)">Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)</a></h2>
         <p class="excerpt">Problem redux-logger&#8217;s usage documentation doesn&#8217;t work with Webpack + TypeScript: import { applyMiddleware, createStore } from 'redux'; import thunk from 'redux-thunk'; import promise from 'redux-promise'; import createLogger from 'redux-logger'; const logger = createLogger(); const store = createStore(   reducer,   applyMiddleware(th&hellip;</p>
-        <div class="post-list__meta"><time datetime="14 Nov 2016" class="post-list__meta--date date">14 Nov 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/"> typescript</a>, <a href="http://blog.anw.fr/tag/redux/"> redux</a></span></div>
+        <div class="post-list__meta"><time datetime="14 Nov 2016" class="post-list__meta--date date">14 Nov 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/">typescript</a>, <a href="http://blog.anw.fr/tag/redux/">redux</a></span></div>
         <hr class="post-list__divider" />
       </li>
       <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2016/11/08/webpack-typescript-resolve-index-module-not-found-error-cannot-resolve-file-or-directory.html" title="link to index.ts not resolved with webpack (Module not found: Error: Cannot resolve &#x27;file&#x27; or &#x27;directory&#x27;)">index.ts not resolved with webpack (Module not found: Error: Cannot resolve &#x27;file&#x27; or &#x27;directory&#x27;)</a></h2>
         <p class="excerpt">Problem With the following file structure : src/ |- app.ts |- store/index.ts The following require instruction doesn&#8217;t work in app.ts: import foo from './store' ERROR in ./app.ts Module not found: Error: Cannot resolve 'file' or 'directory' ./store in /src  @ ./src/app.ts 4:&hellip;</p>
-        <div class="post-list__meta"><time datetime="08 Nov 2016" class="post-list__meta--date date">08 Nov 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/"> typescript</a></span></div>
+        <div class="post-list__meta"><time datetime="08 Nov 2016" class="post-list__meta--date date">08 Nov 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/">typescript</a></span></div>
         <hr class="post-list__divider" />
       </li>
       <li>
         <h2 class="post-list__post-title post-title"><a href="http://blog.anw.fr/2016/03/18/Synchronizing-Living-Colors-gen2-and-Hue-bridge-20.html" title="link to Synchronizing Living Colors gen2 and Hue bridge 2.0">Synchronizing Living Colors gen2 and Hue bridge 2.0</a></h2>
         <p class="excerpt">Getting the following lamps: Living Colors (LC) and Living Bloom gen2 Philips Hue white/color bulbs All controlled by: Living Colors remote(s) gen2 (round remote with the "touch-wheel" for colors) Philips bridge v2 There are almost no post on internet about it. Instructions for remote v1 doesn&#8217;t&hellip;</p>
-        <div class="post-list__meta"><time datetime="18 Mar 2016" class="post-list__meta--date date">18 Mar 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/hardware/">hardware</a>, <a href="http://blog.anw.fr/tag/solution/"> solution</a></span></div>
+        <div class="post-list__meta"><time datetime="18 Mar 2016" class="post-list__meta--date date">18 Mar 2016</time> &#8226; <span class="post-list__meta--tags tags">on <a href="http://blog.anw.fr/tag/hardware/">hardware</a>, <a href="http://blog.anw.fr/tag/solution/">solution</a></span></div>
         <hr class="post-list__divider" />
       </li>
     </ol>
@@ -211,7 +217,7 @@
   </div>
 
             <footer class="footer">
-                <span class="footer__copyright">&copy; 2018. All rights reserved.</span>
+                <span class="footer__copyright">&copy; 2020. All rights reserved.</span>
                 <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
                 <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
             </footer>
@@ -231,7 +237,7 @@
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1538005160412"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1578939676550"></script>
     
 
 </body>
