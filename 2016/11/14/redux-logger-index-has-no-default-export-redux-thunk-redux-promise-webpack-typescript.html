@@ -25,19 +25,20 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1482423371788" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1578939817677" />
 
     <link rel="canonical" href="http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html" />
     <meta name="referrer" content="origin" />
     
     <meta property="og:site_name" content="Dev notes" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:title" content="Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)" />
     <meta property="og:description" content="Problem redux-logger&amp;#8217;s usage documentation doesn&amp;#8217;t work with Webpack + TypeScript: import { applyMiddleware, createStore } from &#x27;redux&#x27;; import thunk from &#x27;redux-thunk&#x27;; import promise from &#x27;redux-promise&#x27;; import createLogger from &#x27;redux-logger&#x27;; const logger &#x3D; createLogger(); const store &#x3D; createStore(   reducer,   applyMiddleware(th" />
     <meta property="og:url" content="http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html" />
+    <meta property="article:published_time" content="2016-11-14T00:00:00.000Z" />
     <meta property="article:tag" content="webpack" />
-    <meta property="article:tag" content=" typescript" />
-    <meta property="article:tag" content=" redux" />
+    <meta property="article:tag" content="typescript" />
+    <meta property="article:tag" content="redux" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)" />
@@ -45,11 +46,30 @@
     <meta name="twitter:url" content="http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html" />
     
     <script type="application/ld+json">
-null
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Dev notes",
+    "author": {
+        "@type": "Person",
+        "name": "Antoine Walter",
+        "image": "https://avatars1.githubusercontent.com/u/1021797?v=4",
+        "url": "http://blog.anw.fr/author/anwfr/",
+        "sameAs": "http://www.anw.fr"
+    },
+    "headline": "Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)",
+    "url": "http://blog.anw.fr/2016/11/14/redux-logger-index-has-no-default-export-redux-thunk-redux-promise-webpack-typescript.html",
+    "datePublished": "2016-11-14T00:00:00.000Z",
+    "keywords": "webpack, typescript, redux",
+    "description": "Problem redux-logger&amp;#8217;s usage documentation doesn&amp;#8217;t work with Webpack + TypeScript: import { applyMiddleware, createStore } from &#x27;redux&#x27;; import thunk from &#x27;redux-thunk&#x27;; import promise from &#x27;redux-promise&#x27;; import createLogger from &#x27;redux-logger&#x27;; const logger &#x3D; createLogger(); const store &#x3D; createStore(   reducer,   applyMiddleware(th"
+}
     </script>
 
     <meta name="generator" content="HubPress" />
     <link rel="alternate" type="application/rss+xml" title="Dev notes" href="http://blog.anw.fr/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
 </head>
 <body class="post-template tag-webpack tag-typescript tag-redux no-js">
@@ -68,7 +88,7 @@ null
             <a href="http://blog.anw.fr" title="link to homepage for Dev notes"><img src="https://avatars3.githubusercontent.com/u/1021797?v&#x3D;3&amp;s&#x3D;460" width="80" alt="Dev notes logo" class="panel-cover__logo logo" /></a>
             <h1 class="panel-cover__title panel-title"><a href="http://blog.anw.fr" title="link to homepage for Dev notes">Dev notes</a></h1>
             <hr class="panel-cover__divider" />
-            <p class="panel-cover__description">Angular2, TypeScript, Webpack...</p>
+            <p class="panel-cover__description"></p>
             <hr class="panel-cover__divider panel-cover__divider--secondary" />
     
             <div class="navigation-wrapper">
@@ -145,8 +165,8 @@ null
 
     <header class="post-header">
       <div class="post-meta">
-        <time datetime="14 Nov 2016" class="post-meta__date date">14 Nov 2016</time> &#8226; <span class="post-meta__tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/"> typescript</a>, <a href="http://blog.anw.fr/tag/redux/"> redux</a></span>
-        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/1021797?v&#x3D;3" alt="profile image for Antoine Walter" class="avatar post-meta__avatar" /> by Antoine Walter</span>
+        <time datetime="14 Nov 2016" class="post-meta__date date">14 Nov 2016</time> &#8226; <span class="post-meta__tags tags">on <a href="http://blog.anw.fr/tag/webpack/">webpack</a>, <a href="http://blog.anw.fr/tag/typescript/">typescript</a>, <a href="http://blog.anw.fr/tag/redux/">redux</a></span>
+        <span class="post-meta__author author"><img src="https://avatars1.githubusercontent.com/u/1021797?v&#x3D;4" alt="profile image for Antoine Walter" class="avatar post-meta__avatar" /> by Antoine Walter</span>
       </div>
       <h1 class="post-title">Unable to use redux-logger with webpack+typescript (redux-logger/index has no default export)</h1>
     </header>
@@ -238,14 +258,14 @@ const store = createStore(
 
 
             <footer class="footer">
-                <span class="footer__copyright">&copy; 2016. All rights reserved.</span>
+                <span class="footer__copyright">&copy; 2020. All rights reserved.</span>
                 <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
                 <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
             </footer>
         </div>
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
           // change date with ago
@@ -258,7 +278,7 @@ const store = createStore(
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1482423371788"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1578939817677"></script>
     
 
 </body>

@@ -25,20 +25,21 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1492086077359" />
+    <link rel="stylesheet" type="text/css" href="//blog.anw.fr/themes/uno/assets/css/uno.css?v=1578939817645" />
 
     <link rel="canonical" href="http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html" />
     <meta name="referrer" content="origin" />
     
     <meta property="og:site_name" content="Dev notes" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:title" content="Reset a git fork when it&#x27;s X commits ahead of upstream" />
     <meta property="og:description" content="Problem Forked repository is X commits ahead upstream, everything is f*cked up. You want to reset it from upstream. Solution Example with master. Repeat for every branch to reset. git remote add upstream https://.... git fetch upstream git checkout master git reset --hard upstream/master git push origin master" />
     <meta property="og:url" content="http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html" />
+    <meta property="article:published_time" content="2017-04-13T00:00:00.000Z" />
     <meta property="article:tag" content="git" />
-    <meta property="article:tag" content=" reset" />
-    <meta property="article:tag" content=" remote" />
-    <meta property="article:tag" content=" upstream" />
+    <meta property="article:tag" content="reset" />
+    <meta property="article:tag" content="remote" />
+    <meta property="article:tag" content="upstream" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Reset a git fork when it&#x27;s X commits ahead of upstream" />
@@ -46,11 +47,30 @@
     <meta name="twitter:url" content="http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html" />
     
     <script type="application/ld+json">
-null
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Dev notes",
+    "author": {
+        "@type": "Person",
+        "name": "Antoine Walter",
+        "image": "https://avatars1.githubusercontent.com/u/1021797?v=4",
+        "url": "http://blog.anw.fr/author/anwfr/",
+        "sameAs": "http://www.anw.fr"
+    },
+    "headline": "Reset a git fork when it&#x27;s X commits ahead of upstream",
+    "url": "http://blog.anw.fr/2017/04/13/reset-git-fork-when-commits-ahead-of-upstream.html",
+    "datePublished": "2017-04-13T00:00:00.000Z",
+    "keywords": "git, reset, remote, upstream",
+    "description": "Problem Forked repository is X commits ahead upstream, everything is f*cked up. You want to reset it from upstream. Solution Example with master. Repeat for every branch to reset. git remote add upstream https://.... git fetch upstream git checkout master git reset --hard upstream/master git push origin master"
+}
     </script>
 
     <meta name="generator" content="HubPress" />
     <link rel="alternate" type="application/rss+xml" title="Dev notes" href="http://blog.anw.fr/rss/" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
 </head>
 <body class="post-template tag-git tag-reset tag-remote tag-upstream no-js">
@@ -69,7 +89,7 @@ null
             <a href="http://blog.anw.fr" title="link to homepage for Dev notes"><img src="https://avatars3.githubusercontent.com/u/1021797?v&#x3D;3&amp;s&#x3D;460" width="80" alt="Dev notes logo" class="panel-cover__logo logo" /></a>
             <h1 class="panel-cover__title panel-title"><a href="http://blog.anw.fr" title="link to homepage for Dev notes">Dev notes</a></h1>
             <hr class="panel-cover__divider" />
-            <p class="panel-cover__description">Angular2, TypeScript, Webpack...</p>
+            <p class="panel-cover__description"></p>
             <hr class="panel-cover__divider panel-cover__divider--secondary" />
     
             <div class="navigation-wrapper">
@@ -146,8 +166,8 @@ null
 
     <header class="post-header">
       <div class="post-meta">
-        <time datetime="13 Apr 2017" class="post-meta__date date">13 Apr 2017</time> &#8226; <span class="post-meta__tags tags">on <a href="http://blog.anw.fr/tag/git/">git</a>, <a href="http://blog.anw.fr/tag/reset/"> reset</a>, <a href="http://blog.anw.fr/tag/remote/"> remote</a>, <a href="http://blog.anw.fr/tag/upstream/"> upstream</a></span>
-        <span class="post-meta__author author"><img src="https://avatars2.githubusercontent.com/u/1021797?v&#x3D;3" alt="profile image for Antoine Walter" class="avatar post-meta__avatar" /> by Antoine Walter</span>
+        <time datetime="13 Apr 2017" class="post-meta__date date">13 Apr 2017</time> &#8226; <span class="post-meta__tags tags">on <a href="http://blog.anw.fr/tag/git/">git</a>, <a href="http://blog.anw.fr/tag/reset/">reset</a>, <a href="http://blog.anw.fr/tag/remote/">remote</a>, <a href="http://blog.anw.fr/tag/upstream/">upstream</a></span>
+        <span class="post-meta__author author"><img src="https://avatars1.githubusercontent.com/u/1021797?v&#x3D;4" alt="profile image for Antoine Walter" class="avatar post-meta__avatar" /> by Antoine Walter</span>
       </div>
       <h1 class="post-title">Reset a git fork when it&#x27;s X commits ahead of upstream</h1>
     </header>
@@ -202,14 +222,14 @@ git push origin master --force</code></pre>
 
 
             <footer class="footer">
-                <span class="footer__copyright">&copy; 2017. All rights reserved.</span>
+                <span class="footer__copyright">&copy; 2020. All rights reserved.</span>
                 <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
                 <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
             </footer>
         </div>
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
           // change date with ago
@@ -222,7 +242,7 @@ git push origin master --force</code></pre>
         hljs.initHighlightingOnLoad();
       </script>
 
-    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1492086077359"></script>
+    <script type="text/javascript" src="//blog.anw.fr/themes/uno/assets/js/main.js?v=1578939817645"></script>
     
 
 </body>
