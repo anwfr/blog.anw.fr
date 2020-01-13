@@ -1,0 +1,11 @@
+= No wifi network found on MacOS Catalina
+:hp-tags: mac
+:hp-alt-title: no wifi network found macos catalina
+:published_at: 2020-01-13
+
+## Problem
+MacOS is suddently unable to detect any wifi network. Wifi network list is empty.
+
+## Solution
+Remove last wifi network saved in wifi settings/advanced.
+Wifi networks will be detected again immediately.
